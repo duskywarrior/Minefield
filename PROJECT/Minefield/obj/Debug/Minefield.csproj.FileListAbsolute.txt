@@ -1,0 +1,58 @@
+E:\week3 day 3\Minefield\Minefield\bin\Debug\Minefield.exe.config
+E:\week3 day 3\Minefield\Minefield\bin\Debug\Minefield.exe
+E:\week3 day 3\Minefield\Minefield\bin\Debug\Minefield.pdb
+E:\week3 day 3\Minefield\Minefield\obj\Debug\Minefield.csprojResolveAssemblyReference.cache
+E:\week3 day 3\Minefield\Minefield\obj\Debug\Minefield.Form1.resources
+E:\week3 day 3\Minefield\Minefield\obj\Debug\Minefield.Properties.Resources.resources
+E:\week3 day 3\Minefield\Minefield\obj\Debug\Minefield.csproj.GenerateResource.Cache
+E:\week3 day 3\Minefield\Minefield\obj\Debug\Minefield.exe
+E:\week3 day 3\Minefield\Minefield\obj\Debug\Minefield.pdb
+D:\week3 day 3\Minefield\Minefield\bin\Debug\Minefield.exe.config
+D:\week3 day 3\Minefield\Minefield\obj\Debug\Minefield.exe
+D:\week3 day 3\Minefield\Minefield\obj\Debug\Minefield.pdb
+D:\week3 day 3\Minefield\Minefield\bin\Debug\Minefield.exe
+D:\week3 day 3\Minefield\Minefield\bin\Debug\Minefield.pdb
+D:\week3 day 3\Minefield\Minefield\obj\Debug\Minefield.csprojResolveAssemblyReference.cache
+D:\week3 day 3\Minefield\Minefield\obj\Debug\Minefield.Form1.resources
+D:\week3 day 3\Minefield\Minefield\obj\Debug\Minefield.Properties.Resources.resources
+D:\week3 day 3\Minefield\Minefield\obj\Debug\Minefield.csproj.GenerateResource.Cache
+E:\week3 day 4\Minefield\Minefield\bin\Debug\Minefield.exe.config
+E:\week3 day 4\Minefield\Minefield\bin\Debug\Minefield.exe
+E:\week3 day 4\Minefield\Minefield\bin\Debug\Minefield.pdb
+E:\week3 day 4\Minefield\Minefield\obj\Debug\Minefield.csprojAssemblyReference.cache
+E:\week3 day 4\Minefield\Minefield\obj\Debug\Minefield.Form1.resources
+E:\week3 day 4\Minefield\Minefield\obj\Debug\Minefield.Properties.Resources.resources
+E:\week3 day 4\Minefield\Minefield\obj\Debug\Minefield.csproj.GenerateResource.cache
+E:\week3 day 4\Minefield\Minefield\obj\Debug\Minefield.csproj.CoreCompileInputs.cache
+E:\week3 day 4\Minefield\Minefield\obj\Debug\Minefield.exe
+E:\week3 day 4\Minefield\Minefield\obj\Debug\Minefield.pdb
+D:\week3 day 4\Minefield\Minefield\bin\Debug\Minefield.exe.config
+D:\week3 day 4\Minefield\Minefield\obj\Debug\Minefield.exe
+D:\week3 day 4\Minefield\Minefield\obj\Debug\Minefield.pdb
+D:\week3 day 4\Minefield\Minefield\bin\Debug\Minefield.exe
+D:\week3 day 4\Minefield\Minefield\bin\Debug\Minefield.pdb
+D:\week3 day 4\Minefield\Minefield\obj\Debug\Minefield.Form1.resources
+D:\week3 day 4\Minefield\Minefield\obj\Debug\Minefield.Properties.Resources.resources
+D:\week3 day 4\Minefield\Minefield\obj\Debug\Minefield.csproj.GenerateResource.Cache
+D:\week3 day 4\Minefield\Minefield\obj\Debug\Minefield.csprojAssemblyReference.cache
+D:\week3 day 4\Minefield\Minefield\obj\Debug\Minefield.csproj.CoreCompileInputs.cache
+E:\working minefield\Minefield\Minefield\bin\Debug\Minefield.exe.config
+E:\working minefield\Minefield\Minefield\bin\Debug\Minefield.exe
+E:\working minefield\Minefield\Minefield\bin\Debug\Minefield.pdb
+E:\working minefield\Minefield\Minefield\obj\Debug\Minefield.csprojAssemblyReference.cache
+E:\working minefield\Minefield\Minefield\obj\Debug\Minefield.Form1.resources
+E:\working minefield\Minefield\Minefield\obj\Debug\Minefield.Properties.Resources.resources
+E:\working minefield\Minefield\Minefield\obj\Debug\Minefield.csproj.GenerateResource.cache
+E:\working minefield\Minefield\Minefield\obj\Debug\Minefield.exe
+E:\working minefield\Minefield\Minefield\obj\Debug\Minefield.pdb
+E:\working minefield\Minefield\Minefield\obj\Debug\Minefield.csproj.CoreCompileInputs.cache
+D:\Assinment 1\Minefield\Minefield\bin\Debug\Minefield.exe.config
+D:\Assinment 1\Minefield\Minefield\obj\Debug\Minefield.exe
+D:\Assinment 1\Minefield\Minefield\obj\Debug\Minefield.pdb
+D:\Assinment 1\Minefield\Minefield\bin\Debug\Minefield.exe
+D:\Assinment 1\Minefield\Minefield\bin\Debug\Minefield.pdb
+D:\Assinment 1\Minefield\Minefield\obj\Debug\Minefield.Form1.resources
+D:\Assinment 1\Minefield\Minefield\obj\Debug\Minefield.Properties.Resources.resources
+D:\Assinment 1\Minefield\Minefield\obj\Debug\Minefield.csproj.GenerateResource.Cache
+D:\Assinment 1\Minefield\Minefield\obj\Debug\Minefield.csprojAssemblyReference.cache
+D:\Assinment 1\Minefield\Minefield\obj\Debug\Minefield.csproj.CoreCompileInputs.cache
