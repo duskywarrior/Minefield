@@ -1,2 +1,4 @@
 -halloween themed colours
 -halloween themed pictures
+-messagebox if you die
+-message box when you start
