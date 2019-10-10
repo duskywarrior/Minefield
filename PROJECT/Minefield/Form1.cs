@@ -49,6 +49,7 @@ namespace Minefield
         int atCol = 10;
         int atRow = 19;
         bool[,] bombs = new bool[20, 20];
+        int timeleft = 10;
 
 
         /******************************************************************************
@@ -230,6 +231,11 @@ namespace Minefield
 
         }
 
+        private void endgame()
+        {
+            timer1.Stop();
+        }
+
 
         /******************************************************************************
         * INITIALISATION OF GAME
@@ -252,6 +258,8 @@ namespace Minefield
             label10.Image = Properties.Resources.gravestone;
             showSpriteAt(atCol, atRow); //set ghost at location
             PlaceBombs(40); //planting the bombs
+            lbltimer.Text = "90";
+            timer1.Start();
             
         }
 
@@ -301,7 +309,11 @@ namespace Minefield
 
         private void Timer1_Tick(object sender, EventArgs e)
         {
-
+            lbltimer.Text = (int.Parse(lbltimer.Text) - 1).ToString();
+            if (int.Parse(lbltimer.Text) == 0)  //if the countdown reaches '0', we stop it
+            {
+                endgame();
+            }
         }
 
 

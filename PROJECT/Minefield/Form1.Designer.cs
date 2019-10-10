@@ -38,6 +38,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.label400 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -430,7 +431,6 @@
             this.label397 = new System.Windows.Forms.Label();
             this.label398 = new System.Windows.Forms.Label();
             this.label399 = new System.Windows.Forms.Label();
-            this.label400 = new System.Windows.Forms.Label();
             this.btnup = new System.Windows.Forms.Button();
             this.btnleft = new System.Windows.Forms.Button();
             this.btnright = new System.Windows.Forms.Button();
@@ -438,6 +438,7 @@
             this.lbldanger = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lbltimer = new System.Windows.Forms.Label();
+            this.label401 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -912,6 +913,15 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(30, 25);
             this.label7.TabIndex = 7;
+            // 
+            // label400
+            // 
+            this.label400.BackColor = System.Drawing.Color.Black;
+            this.label400.Location = new System.Drawing.Point(570, 468);
+            this.label400.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label400.Name = "label400";
+            this.label400.Size = new System.Drawing.Size(30, 25);
+            this.label400.TabIndex = 400;
             // 
             // label8
             // 
@@ -4441,15 +4451,6 @@
             this.label399.Size = new System.Drawing.Size(30, 25);
             this.label399.TabIndex = 399;
             // 
-            // label400
-            // 
-            this.label400.BackColor = System.Drawing.Color.Black;
-            this.label400.Location = new System.Drawing.Point(570, 468);
-            this.label400.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label400.Name = "label400";
-            this.label400.Size = new System.Drawing.Size(30, 25);
-            this.label400.TabIndex = 400;
-            // 
             // btnup
             // 
             this.btnup.Font = new System.Drawing.Font("Wingdings 3", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -4501,23 +4502,37 @@
             // lbldanger
             // 
             this.lbldanger.AutoSize = true;
-            this.lbldanger.Font = new System.Drawing.Font("Stencil", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbldanger.Location = new System.Drawing.Point(10, 548);
+            this.lbldanger.Font = new System.Drawing.Font("Stencil", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldanger.Location = new System.Drawing.Point(11, 512);
             this.lbldanger.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbldanger.Name = "lbldanger";
-            this.lbldanger.Size = new System.Drawing.Size(160, 22);
+            this.lbldanger.Size = new System.Drawing.Size(225, 32);
             this.lbldanger.TabIndex = 5;
             this.lbldanger.Text = "Danger Level:";
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
             // 
             // lbltimer
             // 
             this.lbltimer.AutoSize = true;
             this.lbltimer.Font = new System.Drawing.Font("Stencil", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltimer.Location = new System.Drawing.Point(13, 583);
+            this.lbltimer.Location = new System.Drawing.Point(87, 544);
             this.lbltimer.Name = "lbltimer";
-            this.lbltimer.Size = new System.Drawing.Size(72, 25);
+            this.lbltimer.Size = new System.Drawing.Size(0, 25);
             this.lbltimer.TabIndex = 6;
-            this.lbltimer.Text = "Time:";
+            // 
+            // label401
+            // 
+            this.label401.AutoSize = true;
+            this.label401.Font = new System.Drawing.Font("Stencil", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label401.Location = new System.Drawing.Point(15, 544);
+            this.label401.Name = "label401";
+            this.label401.Size = new System.Drawing.Size(72, 25);
+            this.label401.TabIndex = 7;
+            this.label401.Text = "Time:";
             // 
             // Form1
             // 
@@ -4527,6 +4542,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(644, 667);
+            this.Controls.Add(this.label401);
             this.Controls.Add(this.lbltimer);
             this.Controls.Add(this.lbldanger);
             this.Controls.Add(this.btndown);
@@ -4959,6 +4975,7 @@
         private System.Windows.Forms.Label lbldanger;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label lbltimer;
+        private System.Windows.Forms.Label label401;
     }
 }
 
