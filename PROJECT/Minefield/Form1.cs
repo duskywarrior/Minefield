@@ -32,37 +32,37 @@ namespace Minefield
     public partial class Form1 : Form
     {
 
-/******************************************************************************
-* TYPEDEFS
-******************************************************************************/
+        /******************************************************************************
+        * TYPEDEFS
+        ******************************************************************************/
 
 
-/******************************************************************************
-* #DEFINES and CONSTANTS
-******************************************************************************/
+        /******************************************************************************
+        * #DEFINES and CONSTANTS
+        ******************************************************************************/
 
 
-/******************************************************************************
-* GLOBAL VARIABLES
-******************************************************************************/
-//start location of sprite
-int atCol = 10;
-int atRow = 19;
-bool[,] bombs = new bool[20, 20];
+        /******************************************************************************
+        * GLOBAL VARIABLES
+        ******************************************************************************/
+        //start location of sprite
+        int atCol = 10;
+        int atRow = 19;
+        bool[,] bombs = new bool[20, 20];
 
 
-/******************************************************************************
-* STATIC FUNCTION PROTOTYPES
-******************************************************************************/
+        /******************************************************************************
+        * STATIC FUNCTION PROTOTYPES
+        ******************************************************************************/
 
 
-/******************************************************************************
-* LOCAL VARIABLES (static)
-******************************************************************************/
+        /******************************************************************************
+        * LOCAL VARIABLES (static)
+        ******************************************************************************/
 
-/*
- * This function counts the number of bombs in the area of the sprite
- */
+        /*
+         * This function counts the number of bombs in the area of the sprite
+         */
         private int bombCount(int atCol, int atRow)
         {
             int soFar = 0;
@@ -98,9 +98,9 @@ bool[,] bombs = new bool[20, 20];
             return soFar; //returns the value after incrementations.
         }
 
-/*
- * This function counts the number of bombs in the area of the sprite
- */
+        /*
+         * This function counts the number of bombs in the area of the sprite
+         */
         private void ShowDaBomb()
         {
             Label lbl;
@@ -119,9 +119,9 @@ bool[,] bombs = new bool[20, 20];
 
         }
 
-/*
- * This function counts the number of bombs in the area of the sprite
- */
+        /*
+         * This function counts the number of bombs in the area of the sprite
+         */
         private void PlaceBombs(int numBombs)
         {
             Random r = new Random(); //making random number
@@ -152,9 +152,9 @@ bool[,] bombs = new bool[20, 20];
             }
         }
 
-/*
-* Function to return Label at (atCol, atRow)
-*/
+        /*
+        * Function to return Label at (atCol, atRow)
+        */
         private Label getLabel(int atCol, int atRow)
         {
             int k = atRow * 20 + atCol + 1;
@@ -173,9 +173,9 @@ bool[,] bombs = new bool[20, 20];
             return null;
         }
 
-/*
-*function to show sprite at (atCol, atRow)
-*/
+        /*
+        *function to show sprite at (atCol, atRow)
+        */
         private void showSpriteAt(int atCol, int atRow)
         {
             Label lbl = getLabel(atCol, atRow);     //get label at (atCol,atRow)
@@ -184,19 +184,19 @@ bool[,] bombs = new bool[20, 20];
 
         }
 
-/*
-*function to Hide sprite at (atCol, atRow)
-*/
+        /*
+        *function to Hide sprite at (atCol, atRow)
+        */
         private void HideSpriteImage(int atCol, int atRow)
         {
             Label lbl = getLabel(atCol, atRow); //gets the location of the sprite
             lbl.Image = null;                   // removes the image of the sprite
         }
 
-/*
-*function that returns a messagebox if you land on a bomb
-* or land on the grave
-*/
+        /*
+        *function that returns a messagebox if you land on a bomb
+        * or land on the grave
+        */
         private void amIDead(int atCol, int atRow)
         {
             if (bombs[atCol, atRow])
@@ -231,18 +231,18 @@ bool[,] bombs = new bool[20, 20];
         }
 
 
-/******************************************************************************
-* INITIALISATION OF GAME
-******************************************************************************/
+        /******************************************************************************
+        * INITIALISATION OF GAME
+        ******************************************************************************/
         public Form1()
-         {
-             InitializeComponent();
-         }
+        {
+            InitializeComponent();
+        }
 
 
- /******************************************************************************
- * GAME FUNCTION
- ******************************************************************************/
+        /******************************************************************************
+        * GAME FUNCTION
+        ******************************************************************************/
         private void Form1_Load(object sender, EventArgs e)
         {
             MessageBox.Show("Bob is a result of taking life for granted, As he does every year" +
@@ -252,6 +252,7 @@ bool[,] bombs = new bool[20, 20];
             label10.Image = Properties.Resources.gravestone;
             showSpriteAt(atCol, atRow); //set ghost at location
             PlaceBombs(40); //planting the bombs
+            
         }
 
         private void btnup_Click(object sender, EventArgs e)
@@ -300,7 +301,7 @@ bool[,] bombs = new bool[20, 20];
 
         private void Timer1_Tick(object sender, EventArgs e)
         {
-            
+
         }
 
 

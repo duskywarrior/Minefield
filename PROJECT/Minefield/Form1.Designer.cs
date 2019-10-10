@@ -436,14 +436,14 @@
             this.btnright = new System.Windows.Forms.Button();
             this.btndown = new System.Windows.Forms.Button();
             this.lbldanger = new System.Windows.Forms.Label();
-            this.lbltimer = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.lbltimer = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.panel1.BackColor = System.Drawing.Color.Black;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label3);
@@ -451,6 +451,7 @@
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.label400);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.label10);
@@ -843,7 +844,6 @@
             this.panel1.Controls.Add(this.label397);
             this.panel1.Controls.Add(this.label398);
             this.panel1.Controls.Add(this.label399);
-            this.panel1.Controls.Add(this.label400);
             this.panel1.Location = new System.Drawing.Point(20, 16);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
@@ -852,7 +852,7 @@
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
@@ -861,7 +861,7 @@
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.BackColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(30, 0);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
@@ -870,7 +870,7 @@
             // 
             // label3
             // 
-            this.label3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.BackColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(60, 0);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
@@ -879,7 +879,7 @@
             // 
             // label4
             // 
-            this.label4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label4.BackColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(90, 0);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
@@ -888,7 +888,7 @@
             // 
             // label5
             // 
-            this.label5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label5.BackColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(120, 0);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
@@ -897,7 +897,7 @@
             // 
             // label6
             // 
-            this.label6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label6.BackColor = System.Drawing.Color.Black;
             this.label6.Location = new System.Drawing.Point(150, 0);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
@@ -906,7 +906,7 @@
             // 
             // label7
             // 
-            this.label7.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label7.BackColor = System.Drawing.Color.Black;
             this.label7.Location = new System.Drawing.Point(180, 0);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
@@ -915,7 +915,7 @@
             // 
             // label8
             // 
-            this.label8.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label8.BackColor = System.Drawing.Color.Black;
             this.label8.Location = new System.Drawing.Point(210, 0);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
@@ -924,7 +924,7 @@
             // 
             // label9
             // 
-            this.label9.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label9.BackColor = System.Drawing.Color.Black;
             this.label9.Location = new System.Drawing.Point(240, 0);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
@@ -933,7 +933,7 @@
             // 
             // label10
             // 
-            this.label10.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label10.BackColor = System.Drawing.Color.Black;
             this.label10.Location = new System.Drawing.Point(270, 0);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
@@ -942,7 +942,7 @@
             // 
             // label11
             // 
-            this.label11.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label11.BackColor = System.Drawing.Color.Black;
             this.label11.Location = new System.Drawing.Point(300, 0);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
@@ -951,7 +951,7 @@
             // 
             // label12
             // 
-            this.label12.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label12.BackColor = System.Drawing.Color.Black;
             this.label12.Location = new System.Drawing.Point(330, 0);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
@@ -960,7 +960,7 @@
             // 
             // label13
             // 
-            this.label13.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label13.BackColor = System.Drawing.Color.Black;
             this.label13.Location = new System.Drawing.Point(360, 0);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
@@ -969,7 +969,7 @@
             // 
             // label14
             // 
-            this.label14.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label14.BackColor = System.Drawing.Color.Black;
             this.label14.Location = new System.Drawing.Point(390, 0);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
@@ -978,7 +978,7 @@
             // 
             // label15
             // 
-            this.label15.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label15.BackColor = System.Drawing.Color.Black;
             this.label15.Location = new System.Drawing.Point(420, 0);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
@@ -987,7 +987,7 @@
             // 
             // label16
             // 
-            this.label16.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label16.BackColor = System.Drawing.Color.Black;
             this.label16.Location = new System.Drawing.Point(450, 0);
             this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
@@ -996,7 +996,7 @@
             // 
             // label17
             // 
-            this.label17.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label17.BackColor = System.Drawing.Color.Black;
             this.label17.Location = new System.Drawing.Point(480, 0);
             this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
@@ -1005,7 +1005,7 @@
             // 
             // label18
             // 
-            this.label18.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label18.BackColor = System.Drawing.Color.Black;
             this.label18.Location = new System.Drawing.Point(510, 0);
             this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
@@ -1014,7 +1014,7 @@
             // 
             // label19
             // 
-            this.label19.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label19.BackColor = System.Drawing.Color.Black;
             this.label19.Location = new System.Drawing.Point(540, 0);
             this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label19.Name = "label19";
@@ -1023,7 +1023,7 @@
             // 
             // label20
             // 
-            this.label20.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label20.BackColor = System.Drawing.Color.Black;
             this.label20.Location = new System.Drawing.Point(570, 0);
             this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
@@ -1032,7 +1032,7 @@
             // 
             // label21
             // 
-            this.label21.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label21.BackColor = System.Drawing.Color.Black;
             this.label21.Location = new System.Drawing.Point(0, 25);
             this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label21.Name = "label21";
@@ -1041,7 +1041,7 @@
             // 
             // label22
             // 
-            this.label22.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label22.BackColor = System.Drawing.Color.Black;
             this.label22.Location = new System.Drawing.Point(30, 25);
             this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
@@ -1050,7 +1050,7 @@
             // 
             // label23
             // 
-            this.label23.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label23.BackColor = System.Drawing.Color.Black;
             this.label23.Location = new System.Drawing.Point(60, 25);
             this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label23.Name = "label23";
@@ -1059,7 +1059,7 @@
             // 
             // label24
             // 
-            this.label24.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label24.BackColor = System.Drawing.Color.Black;
             this.label24.Location = new System.Drawing.Point(90, 25);
             this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label24.Name = "label24";
@@ -1068,7 +1068,7 @@
             // 
             // label25
             // 
-            this.label25.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label25.BackColor = System.Drawing.Color.Black;
             this.label25.Location = new System.Drawing.Point(120, 25);
             this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label25.Name = "label25";
@@ -1077,7 +1077,7 @@
             // 
             // label26
             // 
-            this.label26.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label26.BackColor = System.Drawing.Color.Black;
             this.label26.Location = new System.Drawing.Point(150, 25);
             this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label26.Name = "label26";
@@ -1086,7 +1086,7 @@
             // 
             // label27
             // 
-            this.label27.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label27.BackColor = System.Drawing.Color.Black;
             this.label27.Location = new System.Drawing.Point(180, 25);
             this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label27.Name = "label27";
@@ -1095,7 +1095,7 @@
             // 
             // label28
             // 
-            this.label28.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label28.BackColor = System.Drawing.Color.Black;
             this.label28.Location = new System.Drawing.Point(210, 25);
             this.label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label28.Name = "label28";
@@ -1104,7 +1104,7 @@
             // 
             // label29
             // 
-            this.label29.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label29.BackColor = System.Drawing.Color.Black;
             this.label29.Location = new System.Drawing.Point(240, 25);
             this.label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label29.Name = "label29";
@@ -1113,7 +1113,7 @@
             // 
             // label30
             // 
-            this.label30.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label30.BackColor = System.Drawing.Color.Black;
             this.label30.Location = new System.Drawing.Point(270, 25);
             this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label30.Name = "label30";
@@ -1122,7 +1122,7 @@
             // 
             // label31
             // 
-            this.label31.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label31.BackColor = System.Drawing.Color.Black;
             this.label31.Location = new System.Drawing.Point(300, 25);
             this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label31.Name = "label31";
@@ -1131,7 +1131,7 @@
             // 
             // label32
             // 
-            this.label32.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label32.BackColor = System.Drawing.Color.Black;
             this.label32.Location = new System.Drawing.Point(330, 25);
             this.label32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label32.Name = "label32";
@@ -1140,7 +1140,7 @@
             // 
             // label33
             // 
-            this.label33.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label33.BackColor = System.Drawing.Color.Black;
             this.label33.Location = new System.Drawing.Point(360, 25);
             this.label33.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label33.Name = "label33";
@@ -1149,7 +1149,7 @@
             // 
             // label34
             // 
-            this.label34.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label34.BackColor = System.Drawing.Color.Black;
             this.label34.Location = new System.Drawing.Point(390, 25);
             this.label34.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label34.Name = "label34";
@@ -1158,7 +1158,7 @@
             // 
             // label35
             // 
-            this.label35.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label35.BackColor = System.Drawing.Color.Black;
             this.label35.Location = new System.Drawing.Point(420, 25);
             this.label35.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label35.Name = "label35";
@@ -1167,7 +1167,7 @@
             // 
             // label36
             // 
-            this.label36.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label36.BackColor = System.Drawing.Color.Black;
             this.label36.Location = new System.Drawing.Point(450, 25);
             this.label36.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label36.Name = "label36";
@@ -1176,7 +1176,7 @@
             // 
             // label37
             // 
-            this.label37.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label37.BackColor = System.Drawing.Color.Black;
             this.label37.Location = new System.Drawing.Point(480, 25);
             this.label37.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label37.Name = "label37";
@@ -1185,7 +1185,7 @@
             // 
             // label38
             // 
-            this.label38.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label38.BackColor = System.Drawing.Color.Black;
             this.label38.Location = new System.Drawing.Point(510, 25);
             this.label38.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label38.Name = "label38";
@@ -1194,7 +1194,7 @@
             // 
             // label39
             // 
-            this.label39.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label39.BackColor = System.Drawing.Color.Black;
             this.label39.Location = new System.Drawing.Point(540, 25);
             this.label39.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label39.Name = "label39";
@@ -1203,7 +1203,7 @@
             // 
             // label40
             // 
-            this.label40.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label40.BackColor = System.Drawing.Color.Black;
             this.label40.Location = new System.Drawing.Point(570, 25);
             this.label40.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label40.Name = "label40";
@@ -1212,7 +1212,7 @@
             // 
             // label41
             // 
-            this.label41.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label41.BackColor = System.Drawing.Color.Black;
             this.label41.Location = new System.Drawing.Point(0, 49);
             this.label41.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label41.Name = "label41";
@@ -1221,7 +1221,7 @@
             // 
             // label42
             // 
-            this.label42.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label42.BackColor = System.Drawing.Color.Black;
             this.label42.Location = new System.Drawing.Point(30, 49);
             this.label42.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label42.Name = "label42";
@@ -1230,7 +1230,7 @@
             // 
             // label43
             // 
-            this.label43.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label43.BackColor = System.Drawing.Color.Black;
             this.label43.Location = new System.Drawing.Point(60, 49);
             this.label43.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label43.Name = "label43";
@@ -1239,7 +1239,7 @@
             // 
             // label44
             // 
-            this.label44.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label44.BackColor = System.Drawing.Color.Black;
             this.label44.Location = new System.Drawing.Point(90, 49);
             this.label44.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label44.Name = "label44";
@@ -1248,7 +1248,7 @@
             // 
             // label45
             // 
-            this.label45.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label45.BackColor = System.Drawing.Color.Black;
             this.label45.Location = new System.Drawing.Point(120, 49);
             this.label45.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label45.Name = "label45";
@@ -1257,7 +1257,7 @@
             // 
             // label46
             // 
-            this.label46.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label46.BackColor = System.Drawing.Color.Black;
             this.label46.Location = new System.Drawing.Point(150, 49);
             this.label46.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label46.Name = "label46";
@@ -1266,7 +1266,7 @@
             // 
             // label47
             // 
-            this.label47.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label47.BackColor = System.Drawing.Color.Black;
             this.label47.Location = new System.Drawing.Point(180, 49);
             this.label47.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label47.Name = "label47";
@@ -1275,7 +1275,7 @@
             // 
             // label48
             // 
-            this.label48.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label48.BackColor = System.Drawing.Color.Black;
             this.label48.Location = new System.Drawing.Point(210, 49);
             this.label48.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label48.Name = "label48";
@@ -1284,7 +1284,7 @@
             // 
             // label49
             // 
-            this.label49.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label49.BackColor = System.Drawing.Color.Black;
             this.label49.Location = new System.Drawing.Point(240, 49);
             this.label49.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label49.Name = "label49";
@@ -1293,7 +1293,7 @@
             // 
             // label50
             // 
-            this.label50.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label50.BackColor = System.Drawing.Color.Black;
             this.label50.Location = new System.Drawing.Point(270, 49);
             this.label50.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label50.Name = "label50";
@@ -1302,7 +1302,7 @@
             // 
             // label51
             // 
-            this.label51.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label51.BackColor = System.Drawing.Color.Black;
             this.label51.Location = new System.Drawing.Point(300, 49);
             this.label51.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label51.Name = "label51";
@@ -1311,7 +1311,7 @@
             // 
             // label52
             // 
-            this.label52.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label52.BackColor = System.Drawing.Color.Black;
             this.label52.Location = new System.Drawing.Point(330, 49);
             this.label52.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label52.Name = "label52";
@@ -1320,7 +1320,7 @@
             // 
             // label53
             // 
-            this.label53.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label53.BackColor = System.Drawing.Color.Black;
             this.label53.Location = new System.Drawing.Point(360, 49);
             this.label53.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label53.Name = "label53";
@@ -1329,7 +1329,7 @@
             // 
             // label54
             // 
-            this.label54.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label54.BackColor = System.Drawing.Color.Black;
             this.label54.Location = new System.Drawing.Point(390, 49);
             this.label54.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label54.Name = "label54";
@@ -1338,7 +1338,7 @@
             // 
             // label55
             // 
-            this.label55.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label55.BackColor = System.Drawing.Color.Black;
             this.label55.Location = new System.Drawing.Point(420, 49);
             this.label55.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label55.Name = "label55";
@@ -1347,7 +1347,7 @@
             // 
             // label56
             // 
-            this.label56.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label56.BackColor = System.Drawing.Color.Black;
             this.label56.Location = new System.Drawing.Point(450, 49);
             this.label56.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label56.Name = "label56";
@@ -1356,7 +1356,7 @@
             // 
             // label57
             // 
-            this.label57.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label57.BackColor = System.Drawing.Color.Black;
             this.label57.Location = new System.Drawing.Point(480, 49);
             this.label57.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label57.Name = "label57";
@@ -1365,7 +1365,7 @@
             // 
             // label58
             // 
-            this.label58.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label58.BackColor = System.Drawing.Color.Black;
             this.label58.Location = new System.Drawing.Point(510, 49);
             this.label58.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label58.Name = "label58";
@@ -1374,7 +1374,7 @@
             // 
             // label59
             // 
-            this.label59.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label59.BackColor = System.Drawing.Color.Black;
             this.label59.Location = new System.Drawing.Point(540, 49);
             this.label59.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label59.Name = "label59";
@@ -1383,7 +1383,7 @@
             // 
             // label60
             // 
-            this.label60.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label60.BackColor = System.Drawing.Color.Black;
             this.label60.Location = new System.Drawing.Point(570, 49);
             this.label60.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label60.Name = "label60";
@@ -1392,7 +1392,7 @@
             // 
             // label61
             // 
-            this.label61.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label61.BackColor = System.Drawing.Color.Black;
             this.label61.Location = new System.Drawing.Point(0, 74);
             this.label61.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label61.Name = "label61";
@@ -1401,7 +1401,7 @@
             // 
             // label62
             // 
-            this.label62.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label62.BackColor = System.Drawing.Color.Black;
             this.label62.Location = new System.Drawing.Point(30, 74);
             this.label62.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label62.Name = "label62";
@@ -1410,7 +1410,7 @@
             // 
             // label63
             // 
-            this.label63.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label63.BackColor = System.Drawing.Color.Black;
             this.label63.Location = new System.Drawing.Point(60, 74);
             this.label63.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label63.Name = "label63";
@@ -1419,7 +1419,7 @@
             // 
             // label64
             // 
-            this.label64.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label64.BackColor = System.Drawing.Color.Black;
             this.label64.Location = new System.Drawing.Point(90, 74);
             this.label64.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label64.Name = "label64";
@@ -1428,7 +1428,7 @@
             // 
             // label65
             // 
-            this.label65.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label65.BackColor = System.Drawing.Color.Black;
             this.label65.Location = new System.Drawing.Point(120, 74);
             this.label65.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label65.Name = "label65";
@@ -1437,7 +1437,7 @@
             // 
             // label66
             // 
-            this.label66.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label66.BackColor = System.Drawing.Color.Black;
             this.label66.Location = new System.Drawing.Point(150, 74);
             this.label66.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label66.Name = "label66";
@@ -1446,7 +1446,7 @@
             // 
             // label67
             // 
-            this.label67.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label67.BackColor = System.Drawing.Color.Black;
             this.label67.Location = new System.Drawing.Point(180, 74);
             this.label67.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label67.Name = "label67";
@@ -1455,7 +1455,7 @@
             // 
             // label68
             // 
-            this.label68.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label68.BackColor = System.Drawing.Color.Black;
             this.label68.Location = new System.Drawing.Point(210, 74);
             this.label68.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label68.Name = "label68";
@@ -1464,7 +1464,7 @@
             // 
             // label69
             // 
-            this.label69.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label69.BackColor = System.Drawing.Color.Black;
             this.label69.Location = new System.Drawing.Point(240, 74);
             this.label69.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label69.Name = "label69";
@@ -1473,7 +1473,7 @@
             // 
             // label70
             // 
-            this.label70.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label70.BackColor = System.Drawing.Color.Black;
             this.label70.Location = new System.Drawing.Point(270, 74);
             this.label70.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label70.Name = "label70";
@@ -1482,7 +1482,7 @@
             // 
             // label71
             // 
-            this.label71.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label71.BackColor = System.Drawing.Color.Black;
             this.label71.Location = new System.Drawing.Point(300, 74);
             this.label71.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label71.Name = "label71";
@@ -1491,7 +1491,7 @@
             // 
             // label72
             // 
-            this.label72.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label72.BackColor = System.Drawing.Color.Black;
             this.label72.Location = new System.Drawing.Point(330, 74);
             this.label72.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label72.Name = "label72";
@@ -1500,7 +1500,7 @@
             // 
             // label73
             // 
-            this.label73.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label73.BackColor = System.Drawing.Color.Black;
             this.label73.Location = new System.Drawing.Point(360, 74);
             this.label73.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label73.Name = "label73";
@@ -1509,7 +1509,7 @@
             // 
             // label74
             // 
-            this.label74.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label74.BackColor = System.Drawing.Color.Black;
             this.label74.Location = new System.Drawing.Point(390, 74);
             this.label74.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label74.Name = "label74";
@@ -1518,7 +1518,7 @@
             // 
             // label75
             // 
-            this.label75.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label75.BackColor = System.Drawing.Color.Black;
             this.label75.Location = new System.Drawing.Point(420, 74);
             this.label75.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label75.Name = "label75";
@@ -1527,7 +1527,7 @@
             // 
             // label76
             // 
-            this.label76.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label76.BackColor = System.Drawing.Color.Black;
             this.label76.Location = new System.Drawing.Point(450, 74);
             this.label76.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label76.Name = "label76";
@@ -1536,7 +1536,7 @@
             // 
             // label77
             // 
-            this.label77.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label77.BackColor = System.Drawing.Color.Black;
             this.label77.Location = new System.Drawing.Point(480, 74);
             this.label77.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label77.Name = "label77";
@@ -1545,7 +1545,7 @@
             // 
             // label78
             // 
-            this.label78.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label78.BackColor = System.Drawing.Color.Black;
             this.label78.Location = new System.Drawing.Point(510, 74);
             this.label78.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label78.Name = "label78";
@@ -1554,7 +1554,7 @@
             // 
             // label79
             // 
-            this.label79.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label79.BackColor = System.Drawing.Color.Black;
             this.label79.Location = new System.Drawing.Point(540, 74);
             this.label79.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label79.Name = "label79";
@@ -1563,7 +1563,7 @@
             // 
             // label80
             // 
-            this.label80.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label80.BackColor = System.Drawing.Color.Black;
             this.label80.Location = new System.Drawing.Point(570, 74);
             this.label80.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label80.Name = "label80";
@@ -1572,7 +1572,7 @@
             // 
             // label81
             // 
-            this.label81.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label81.BackColor = System.Drawing.Color.Black;
             this.label81.Location = new System.Drawing.Point(0, 98);
             this.label81.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label81.Name = "label81";
@@ -1581,7 +1581,7 @@
             // 
             // label82
             // 
-            this.label82.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label82.BackColor = System.Drawing.Color.Black;
             this.label82.Location = new System.Drawing.Point(30, 98);
             this.label82.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label82.Name = "label82";
@@ -1590,7 +1590,7 @@
             // 
             // label83
             // 
-            this.label83.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label83.BackColor = System.Drawing.Color.Black;
             this.label83.Location = new System.Drawing.Point(60, 98);
             this.label83.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label83.Name = "label83";
@@ -1599,7 +1599,7 @@
             // 
             // label84
             // 
-            this.label84.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label84.BackColor = System.Drawing.Color.Black;
             this.label84.Location = new System.Drawing.Point(90, 98);
             this.label84.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label84.Name = "label84";
@@ -1608,7 +1608,7 @@
             // 
             // label85
             // 
-            this.label85.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label85.BackColor = System.Drawing.Color.Black;
             this.label85.Location = new System.Drawing.Point(120, 98);
             this.label85.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label85.Name = "label85";
@@ -1617,7 +1617,7 @@
             // 
             // label86
             // 
-            this.label86.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label86.BackColor = System.Drawing.Color.Black;
             this.label86.Location = new System.Drawing.Point(150, 98);
             this.label86.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label86.Name = "label86";
@@ -1626,7 +1626,7 @@
             // 
             // label87
             // 
-            this.label87.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label87.BackColor = System.Drawing.Color.Black;
             this.label87.Location = new System.Drawing.Point(180, 98);
             this.label87.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label87.Name = "label87";
@@ -1635,7 +1635,7 @@
             // 
             // label88
             // 
-            this.label88.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label88.BackColor = System.Drawing.Color.Black;
             this.label88.Location = new System.Drawing.Point(210, 98);
             this.label88.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label88.Name = "label88";
@@ -1644,7 +1644,7 @@
             // 
             // label89
             // 
-            this.label89.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label89.BackColor = System.Drawing.Color.Black;
             this.label89.Location = new System.Drawing.Point(240, 98);
             this.label89.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label89.Name = "label89";
@@ -1653,7 +1653,7 @@
             // 
             // label90
             // 
-            this.label90.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label90.BackColor = System.Drawing.Color.Black;
             this.label90.Location = new System.Drawing.Point(270, 98);
             this.label90.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label90.Name = "label90";
@@ -1662,7 +1662,7 @@
             // 
             // label91
             // 
-            this.label91.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label91.BackColor = System.Drawing.Color.Black;
             this.label91.Location = new System.Drawing.Point(300, 98);
             this.label91.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label91.Name = "label91";
@@ -1671,7 +1671,7 @@
             // 
             // label92
             // 
-            this.label92.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label92.BackColor = System.Drawing.Color.Black;
             this.label92.Location = new System.Drawing.Point(330, 98);
             this.label92.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label92.Name = "label92";
@@ -1680,7 +1680,7 @@
             // 
             // label93
             // 
-            this.label93.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label93.BackColor = System.Drawing.Color.Black;
             this.label93.Location = new System.Drawing.Point(360, 98);
             this.label93.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label93.Name = "label93";
@@ -1689,7 +1689,7 @@
             // 
             // label94
             // 
-            this.label94.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label94.BackColor = System.Drawing.Color.Black;
             this.label94.Location = new System.Drawing.Point(390, 98);
             this.label94.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label94.Name = "label94";
@@ -1698,7 +1698,7 @@
             // 
             // label95
             // 
-            this.label95.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label95.BackColor = System.Drawing.Color.Black;
             this.label95.Location = new System.Drawing.Point(420, 98);
             this.label95.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label95.Name = "label95";
@@ -1707,7 +1707,7 @@
             // 
             // label96
             // 
-            this.label96.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label96.BackColor = System.Drawing.Color.Black;
             this.label96.Location = new System.Drawing.Point(450, 98);
             this.label96.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label96.Name = "label96";
@@ -1716,7 +1716,7 @@
             // 
             // label97
             // 
-            this.label97.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label97.BackColor = System.Drawing.Color.Black;
             this.label97.Location = new System.Drawing.Point(480, 98);
             this.label97.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label97.Name = "label97";
@@ -1725,7 +1725,7 @@
             // 
             // label98
             // 
-            this.label98.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label98.BackColor = System.Drawing.Color.Black;
             this.label98.Location = new System.Drawing.Point(510, 98);
             this.label98.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label98.Name = "label98";
@@ -1734,7 +1734,7 @@
             // 
             // label99
             // 
-            this.label99.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label99.BackColor = System.Drawing.Color.Black;
             this.label99.Location = new System.Drawing.Point(540, 98);
             this.label99.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label99.Name = "label99";
@@ -1743,7 +1743,7 @@
             // 
             // label100
             // 
-            this.label100.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label100.BackColor = System.Drawing.Color.Black;
             this.label100.Location = new System.Drawing.Point(570, 98);
             this.label100.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label100.Name = "label100";
@@ -1752,7 +1752,7 @@
             // 
             // label101
             // 
-            this.label101.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label101.BackColor = System.Drawing.Color.Black;
             this.label101.Location = new System.Drawing.Point(0, 123);
             this.label101.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label101.Name = "label101";
@@ -1761,7 +1761,7 @@
             // 
             // label102
             // 
-            this.label102.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label102.BackColor = System.Drawing.Color.Black;
             this.label102.Location = new System.Drawing.Point(30, 123);
             this.label102.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label102.Name = "label102";
@@ -1770,7 +1770,7 @@
             // 
             // label103
             // 
-            this.label103.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label103.BackColor = System.Drawing.Color.Black;
             this.label103.Location = new System.Drawing.Point(60, 123);
             this.label103.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label103.Name = "label103";
@@ -1779,7 +1779,7 @@
             // 
             // label104
             // 
-            this.label104.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label104.BackColor = System.Drawing.Color.Black;
             this.label104.Location = new System.Drawing.Point(90, 123);
             this.label104.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label104.Name = "label104";
@@ -1788,7 +1788,7 @@
             // 
             // label105
             // 
-            this.label105.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label105.BackColor = System.Drawing.Color.Black;
             this.label105.Location = new System.Drawing.Point(120, 123);
             this.label105.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label105.Name = "label105";
@@ -1797,7 +1797,7 @@
             // 
             // label106
             // 
-            this.label106.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label106.BackColor = System.Drawing.Color.Black;
             this.label106.Location = new System.Drawing.Point(150, 123);
             this.label106.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label106.Name = "label106";
@@ -1806,7 +1806,7 @@
             // 
             // label107
             // 
-            this.label107.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label107.BackColor = System.Drawing.Color.Black;
             this.label107.Location = new System.Drawing.Point(180, 123);
             this.label107.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label107.Name = "label107";
@@ -1815,7 +1815,7 @@
             // 
             // label108
             // 
-            this.label108.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label108.BackColor = System.Drawing.Color.Black;
             this.label108.Location = new System.Drawing.Point(210, 123);
             this.label108.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label108.Name = "label108";
@@ -1824,7 +1824,7 @@
             // 
             // label109
             // 
-            this.label109.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label109.BackColor = System.Drawing.Color.Black;
             this.label109.Location = new System.Drawing.Point(240, 123);
             this.label109.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label109.Name = "label109";
@@ -1833,7 +1833,7 @@
             // 
             // label110
             // 
-            this.label110.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label110.BackColor = System.Drawing.Color.Black;
             this.label110.Location = new System.Drawing.Point(270, 123);
             this.label110.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label110.Name = "label110";
@@ -1842,7 +1842,7 @@
             // 
             // label111
             // 
-            this.label111.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label111.BackColor = System.Drawing.Color.Black;
             this.label111.Location = new System.Drawing.Point(300, 123);
             this.label111.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label111.Name = "label111";
@@ -1851,7 +1851,7 @@
             // 
             // label112
             // 
-            this.label112.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label112.BackColor = System.Drawing.Color.Black;
             this.label112.Location = new System.Drawing.Point(330, 123);
             this.label112.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label112.Name = "label112";
@@ -1860,7 +1860,7 @@
             // 
             // label113
             // 
-            this.label113.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label113.BackColor = System.Drawing.Color.Black;
             this.label113.Location = new System.Drawing.Point(360, 123);
             this.label113.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label113.Name = "label113";
@@ -1869,7 +1869,7 @@
             // 
             // label114
             // 
-            this.label114.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label114.BackColor = System.Drawing.Color.Black;
             this.label114.Location = new System.Drawing.Point(390, 123);
             this.label114.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label114.Name = "label114";
@@ -1878,7 +1878,7 @@
             // 
             // label115
             // 
-            this.label115.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label115.BackColor = System.Drawing.Color.Black;
             this.label115.Location = new System.Drawing.Point(420, 123);
             this.label115.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label115.Name = "label115";
@@ -1887,7 +1887,7 @@
             // 
             // label116
             // 
-            this.label116.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label116.BackColor = System.Drawing.Color.Black;
             this.label116.Location = new System.Drawing.Point(450, 123);
             this.label116.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label116.Name = "label116";
@@ -1896,7 +1896,7 @@
             // 
             // label117
             // 
-            this.label117.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label117.BackColor = System.Drawing.Color.Black;
             this.label117.Location = new System.Drawing.Point(480, 123);
             this.label117.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label117.Name = "label117";
@@ -1905,7 +1905,7 @@
             // 
             // label118
             // 
-            this.label118.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label118.BackColor = System.Drawing.Color.Black;
             this.label118.Location = new System.Drawing.Point(510, 123);
             this.label118.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label118.Name = "label118";
@@ -1914,7 +1914,7 @@
             // 
             // label119
             // 
-            this.label119.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label119.BackColor = System.Drawing.Color.Black;
             this.label119.Location = new System.Drawing.Point(540, 123);
             this.label119.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label119.Name = "label119";
@@ -1923,7 +1923,7 @@
             // 
             // label120
             // 
-            this.label120.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label120.BackColor = System.Drawing.Color.Black;
             this.label120.Location = new System.Drawing.Point(570, 123);
             this.label120.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label120.Name = "label120";
@@ -1932,7 +1932,7 @@
             // 
             // label121
             // 
-            this.label121.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label121.BackColor = System.Drawing.Color.Black;
             this.label121.Location = new System.Drawing.Point(0, 148);
             this.label121.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label121.Name = "label121";
@@ -1941,7 +1941,7 @@
             // 
             // label122
             // 
-            this.label122.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label122.BackColor = System.Drawing.Color.Black;
             this.label122.Location = new System.Drawing.Point(30, 148);
             this.label122.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label122.Name = "label122";
@@ -1950,7 +1950,7 @@
             // 
             // label123
             // 
-            this.label123.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label123.BackColor = System.Drawing.Color.Black;
             this.label123.Location = new System.Drawing.Point(60, 148);
             this.label123.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label123.Name = "label123";
@@ -1959,7 +1959,7 @@
             // 
             // label124
             // 
-            this.label124.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label124.BackColor = System.Drawing.Color.Black;
             this.label124.Location = new System.Drawing.Point(90, 148);
             this.label124.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label124.Name = "label124";
@@ -1968,7 +1968,7 @@
             // 
             // label125
             // 
-            this.label125.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label125.BackColor = System.Drawing.Color.Black;
             this.label125.Location = new System.Drawing.Point(120, 148);
             this.label125.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label125.Name = "label125";
@@ -1977,7 +1977,7 @@
             // 
             // label126
             // 
-            this.label126.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label126.BackColor = System.Drawing.Color.Black;
             this.label126.Location = new System.Drawing.Point(150, 148);
             this.label126.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label126.Name = "label126";
@@ -1986,7 +1986,7 @@
             // 
             // label127
             // 
-            this.label127.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label127.BackColor = System.Drawing.Color.Black;
             this.label127.Location = new System.Drawing.Point(180, 148);
             this.label127.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label127.Name = "label127";
@@ -1995,7 +1995,7 @@
             // 
             // label128
             // 
-            this.label128.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label128.BackColor = System.Drawing.Color.Black;
             this.label128.Location = new System.Drawing.Point(210, 148);
             this.label128.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label128.Name = "label128";
@@ -2004,7 +2004,7 @@
             // 
             // label129
             // 
-            this.label129.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label129.BackColor = System.Drawing.Color.Black;
             this.label129.Location = new System.Drawing.Point(240, 148);
             this.label129.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label129.Name = "label129";
@@ -2013,7 +2013,7 @@
             // 
             // label130
             // 
-            this.label130.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label130.BackColor = System.Drawing.Color.Black;
             this.label130.Location = new System.Drawing.Point(270, 148);
             this.label130.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label130.Name = "label130";
@@ -2022,7 +2022,7 @@
             // 
             // label131
             // 
-            this.label131.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label131.BackColor = System.Drawing.Color.Black;
             this.label131.Location = new System.Drawing.Point(300, 148);
             this.label131.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label131.Name = "label131";
@@ -2031,7 +2031,7 @@
             // 
             // label132
             // 
-            this.label132.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label132.BackColor = System.Drawing.Color.Black;
             this.label132.Location = new System.Drawing.Point(330, 148);
             this.label132.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label132.Name = "label132";
@@ -2040,7 +2040,7 @@
             // 
             // label133
             // 
-            this.label133.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label133.BackColor = System.Drawing.Color.Black;
             this.label133.Location = new System.Drawing.Point(360, 148);
             this.label133.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label133.Name = "label133";
@@ -2049,7 +2049,7 @@
             // 
             // label134
             // 
-            this.label134.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label134.BackColor = System.Drawing.Color.Black;
             this.label134.Location = new System.Drawing.Point(390, 148);
             this.label134.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label134.Name = "label134";
@@ -2058,7 +2058,7 @@
             // 
             // label135
             // 
-            this.label135.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label135.BackColor = System.Drawing.Color.Black;
             this.label135.Location = new System.Drawing.Point(420, 148);
             this.label135.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label135.Name = "label135";
@@ -2067,7 +2067,7 @@
             // 
             // label136
             // 
-            this.label136.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label136.BackColor = System.Drawing.Color.Black;
             this.label136.Location = new System.Drawing.Point(450, 148);
             this.label136.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label136.Name = "label136";
@@ -2076,7 +2076,7 @@
             // 
             // label137
             // 
-            this.label137.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label137.BackColor = System.Drawing.Color.Black;
             this.label137.Location = new System.Drawing.Point(480, 148);
             this.label137.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label137.Name = "label137";
@@ -2085,7 +2085,7 @@
             // 
             // label138
             // 
-            this.label138.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label138.BackColor = System.Drawing.Color.Black;
             this.label138.Location = new System.Drawing.Point(510, 148);
             this.label138.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label138.Name = "label138";
@@ -2094,7 +2094,7 @@
             // 
             // label139
             // 
-            this.label139.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label139.BackColor = System.Drawing.Color.Black;
             this.label139.Location = new System.Drawing.Point(540, 148);
             this.label139.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label139.Name = "label139";
@@ -2103,7 +2103,7 @@
             // 
             // label140
             // 
-            this.label140.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label140.BackColor = System.Drawing.Color.Black;
             this.label140.Location = new System.Drawing.Point(570, 148);
             this.label140.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label140.Name = "label140";
@@ -2112,7 +2112,7 @@
             // 
             // label141
             // 
-            this.label141.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label141.BackColor = System.Drawing.Color.Black;
             this.label141.Location = new System.Drawing.Point(0, 172);
             this.label141.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label141.Name = "label141";
@@ -2121,7 +2121,7 @@
             // 
             // label142
             // 
-            this.label142.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label142.BackColor = System.Drawing.Color.Black;
             this.label142.Location = new System.Drawing.Point(30, 172);
             this.label142.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label142.Name = "label142";
@@ -2130,7 +2130,7 @@
             // 
             // label143
             // 
-            this.label143.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label143.BackColor = System.Drawing.Color.Black;
             this.label143.Location = new System.Drawing.Point(60, 172);
             this.label143.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label143.Name = "label143";
@@ -2139,7 +2139,7 @@
             // 
             // label144
             // 
-            this.label144.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label144.BackColor = System.Drawing.Color.Black;
             this.label144.Location = new System.Drawing.Point(90, 172);
             this.label144.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label144.Name = "label144";
@@ -2148,7 +2148,7 @@
             // 
             // label145
             // 
-            this.label145.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label145.BackColor = System.Drawing.Color.Black;
             this.label145.Location = new System.Drawing.Point(120, 172);
             this.label145.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label145.Name = "label145";
@@ -2157,7 +2157,7 @@
             // 
             // label146
             // 
-            this.label146.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label146.BackColor = System.Drawing.Color.Black;
             this.label146.Location = new System.Drawing.Point(150, 172);
             this.label146.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label146.Name = "label146";
@@ -2166,7 +2166,7 @@
             // 
             // label147
             // 
-            this.label147.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label147.BackColor = System.Drawing.Color.Black;
             this.label147.Location = new System.Drawing.Point(180, 172);
             this.label147.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label147.Name = "label147";
@@ -2175,7 +2175,7 @@
             // 
             // label148
             // 
-            this.label148.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label148.BackColor = System.Drawing.Color.Black;
             this.label148.Location = new System.Drawing.Point(210, 172);
             this.label148.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label148.Name = "label148";
@@ -2184,7 +2184,7 @@
             // 
             // label149
             // 
-            this.label149.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label149.BackColor = System.Drawing.Color.Black;
             this.label149.Location = new System.Drawing.Point(240, 172);
             this.label149.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label149.Name = "label149";
@@ -2193,7 +2193,7 @@
             // 
             // label150
             // 
-            this.label150.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label150.BackColor = System.Drawing.Color.Black;
             this.label150.Location = new System.Drawing.Point(270, 172);
             this.label150.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label150.Name = "label150";
@@ -2202,7 +2202,7 @@
             // 
             // label151
             // 
-            this.label151.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label151.BackColor = System.Drawing.Color.Black;
             this.label151.Location = new System.Drawing.Point(300, 172);
             this.label151.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label151.Name = "label151";
@@ -2211,7 +2211,7 @@
             // 
             // label152
             // 
-            this.label152.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label152.BackColor = System.Drawing.Color.Black;
             this.label152.Location = new System.Drawing.Point(330, 172);
             this.label152.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label152.Name = "label152";
@@ -2220,7 +2220,7 @@
             // 
             // label153
             // 
-            this.label153.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label153.BackColor = System.Drawing.Color.Black;
             this.label153.Location = new System.Drawing.Point(360, 172);
             this.label153.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label153.Name = "label153";
@@ -2229,7 +2229,7 @@
             // 
             // label154
             // 
-            this.label154.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label154.BackColor = System.Drawing.Color.Black;
             this.label154.Location = new System.Drawing.Point(390, 172);
             this.label154.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label154.Name = "label154";
@@ -2238,7 +2238,7 @@
             // 
             // label155
             // 
-            this.label155.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label155.BackColor = System.Drawing.Color.Black;
             this.label155.Location = new System.Drawing.Point(420, 172);
             this.label155.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label155.Name = "label155";
@@ -2247,7 +2247,7 @@
             // 
             // label156
             // 
-            this.label156.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label156.BackColor = System.Drawing.Color.Black;
             this.label156.Location = new System.Drawing.Point(450, 172);
             this.label156.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label156.Name = "label156";
@@ -2256,7 +2256,7 @@
             // 
             // label157
             // 
-            this.label157.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label157.BackColor = System.Drawing.Color.Black;
             this.label157.Location = new System.Drawing.Point(480, 172);
             this.label157.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label157.Name = "label157";
@@ -2265,7 +2265,7 @@
             // 
             // label158
             // 
-            this.label158.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label158.BackColor = System.Drawing.Color.Black;
             this.label158.Location = new System.Drawing.Point(510, 172);
             this.label158.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label158.Name = "label158";
@@ -2274,7 +2274,7 @@
             // 
             // label159
             // 
-            this.label159.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label159.BackColor = System.Drawing.Color.Black;
             this.label159.Location = new System.Drawing.Point(540, 172);
             this.label159.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label159.Name = "label159";
@@ -2283,7 +2283,7 @@
             // 
             // label160
             // 
-            this.label160.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label160.BackColor = System.Drawing.Color.Black;
             this.label160.Location = new System.Drawing.Point(570, 172);
             this.label160.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label160.Name = "label160";
@@ -2292,7 +2292,7 @@
             // 
             // label161
             // 
-            this.label161.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label161.BackColor = System.Drawing.Color.Black;
             this.label161.Location = new System.Drawing.Point(0, 197);
             this.label161.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label161.Name = "label161";
@@ -2301,7 +2301,7 @@
             // 
             // label162
             // 
-            this.label162.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label162.BackColor = System.Drawing.Color.Black;
             this.label162.Location = new System.Drawing.Point(30, 197);
             this.label162.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label162.Name = "label162";
@@ -2310,7 +2310,7 @@
             // 
             // label163
             // 
-            this.label163.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label163.BackColor = System.Drawing.Color.Black;
             this.label163.Location = new System.Drawing.Point(60, 197);
             this.label163.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label163.Name = "label163";
@@ -2319,7 +2319,7 @@
             // 
             // label164
             // 
-            this.label164.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label164.BackColor = System.Drawing.Color.Black;
             this.label164.Location = new System.Drawing.Point(90, 197);
             this.label164.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label164.Name = "label164";
@@ -2328,7 +2328,7 @@
             // 
             // label165
             // 
-            this.label165.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label165.BackColor = System.Drawing.Color.Black;
             this.label165.Location = new System.Drawing.Point(120, 197);
             this.label165.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label165.Name = "label165";
@@ -2337,7 +2337,7 @@
             // 
             // label166
             // 
-            this.label166.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label166.BackColor = System.Drawing.Color.Black;
             this.label166.Location = new System.Drawing.Point(150, 197);
             this.label166.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label166.Name = "label166";
@@ -2346,7 +2346,7 @@
             // 
             // label167
             // 
-            this.label167.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label167.BackColor = System.Drawing.Color.Black;
             this.label167.Location = new System.Drawing.Point(180, 197);
             this.label167.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label167.Name = "label167";
@@ -2355,7 +2355,7 @@
             // 
             // label168
             // 
-            this.label168.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label168.BackColor = System.Drawing.Color.Black;
             this.label168.Location = new System.Drawing.Point(210, 197);
             this.label168.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label168.Name = "label168";
@@ -2364,7 +2364,7 @@
             // 
             // label169
             // 
-            this.label169.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label169.BackColor = System.Drawing.Color.Black;
             this.label169.Location = new System.Drawing.Point(240, 197);
             this.label169.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label169.Name = "label169";
@@ -2373,7 +2373,7 @@
             // 
             // label170
             // 
-            this.label170.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label170.BackColor = System.Drawing.Color.Black;
             this.label170.Location = new System.Drawing.Point(270, 197);
             this.label170.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label170.Name = "label170";
@@ -2382,7 +2382,7 @@
             // 
             // label171
             // 
-            this.label171.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label171.BackColor = System.Drawing.Color.Black;
             this.label171.Location = new System.Drawing.Point(300, 197);
             this.label171.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label171.Name = "label171";
@@ -2391,7 +2391,7 @@
             // 
             // label172
             // 
-            this.label172.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label172.BackColor = System.Drawing.Color.Black;
             this.label172.Location = new System.Drawing.Point(330, 197);
             this.label172.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label172.Name = "label172";
@@ -2400,7 +2400,7 @@
             // 
             // label173
             // 
-            this.label173.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label173.BackColor = System.Drawing.Color.Black;
             this.label173.Location = new System.Drawing.Point(360, 197);
             this.label173.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label173.Name = "label173";
@@ -2409,7 +2409,7 @@
             // 
             // label174
             // 
-            this.label174.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label174.BackColor = System.Drawing.Color.Black;
             this.label174.Location = new System.Drawing.Point(390, 197);
             this.label174.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label174.Name = "label174";
@@ -2418,7 +2418,7 @@
             // 
             // label175
             // 
-            this.label175.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label175.BackColor = System.Drawing.Color.Black;
             this.label175.Location = new System.Drawing.Point(420, 197);
             this.label175.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label175.Name = "label175";
@@ -2427,7 +2427,7 @@
             // 
             // label176
             // 
-            this.label176.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label176.BackColor = System.Drawing.Color.Black;
             this.label176.Location = new System.Drawing.Point(450, 197);
             this.label176.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label176.Name = "label176";
@@ -2436,7 +2436,7 @@
             // 
             // label177
             // 
-            this.label177.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label177.BackColor = System.Drawing.Color.Black;
             this.label177.Location = new System.Drawing.Point(480, 197);
             this.label177.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label177.Name = "label177";
@@ -2445,7 +2445,7 @@
             // 
             // label178
             // 
-            this.label178.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label178.BackColor = System.Drawing.Color.Black;
             this.label178.Location = new System.Drawing.Point(510, 197);
             this.label178.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label178.Name = "label178";
@@ -2454,7 +2454,7 @@
             // 
             // label179
             // 
-            this.label179.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label179.BackColor = System.Drawing.Color.Black;
             this.label179.Location = new System.Drawing.Point(540, 197);
             this.label179.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label179.Name = "label179";
@@ -2463,7 +2463,7 @@
             // 
             // label180
             // 
-            this.label180.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label180.BackColor = System.Drawing.Color.Black;
             this.label180.Location = new System.Drawing.Point(570, 197);
             this.label180.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label180.Name = "label180";
@@ -2472,7 +2472,7 @@
             // 
             // label181
             // 
-            this.label181.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label181.BackColor = System.Drawing.Color.Black;
             this.label181.Location = new System.Drawing.Point(0, 222);
             this.label181.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label181.Name = "label181";
@@ -2481,7 +2481,7 @@
             // 
             // label182
             // 
-            this.label182.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label182.BackColor = System.Drawing.Color.Black;
             this.label182.Location = new System.Drawing.Point(30, 222);
             this.label182.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label182.Name = "label182";
@@ -2490,7 +2490,7 @@
             // 
             // label183
             // 
-            this.label183.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label183.BackColor = System.Drawing.Color.Black;
             this.label183.Location = new System.Drawing.Point(60, 222);
             this.label183.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label183.Name = "label183";
@@ -2499,7 +2499,7 @@
             // 
             // label184
             // 
-            this.label184.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label184.BackColor = System.Drawing.Color.Black;
             this.label184.Location = new System.Drawing.Point(90, 222);
             this.label184.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label184.Name = "label184";
@@ -2508,7 +2508,7 @@
             // 
             // label185
             // 
-            this.label185.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label185.BackColor = System.Drawing.Color.Black;
             this.label185.Location = new System.Drawing.Point(120, 222);
             this.label185.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label185.Name = "label185";
@@ -2517,7 +2517,7 @@
             // 
             // label186
             // 
-            this.label186.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label186.BackColor = System.Drawing.Color.Black;
             this.label186.Location = new System.Drawing.Point(150, 222);
             this.label186.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label186.Name = "label186";
@@ -2526,7 +2526,7 @@
             // 
             // label187
             // 
-            this.label187.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label187.BackColor = System.Drawing.Color.Black;
             this.label187.Location = new System.Drawing.Point(180, 222);
             this.label187.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label187.Name = "label187";
@@ -2535,7 +2535,7 @@
             // 
             // label188
             // 
-            this.label188.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label188.BackColor = System.Drawing.Color.Black;
             this.label188.Location = new System.Drawing.Point(210, 222);
             this.label188.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label188.Name = "label188";
@@ -2544,7 +2544,7 @@
             // 
             // label189
             // 
-            this.label189.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label189.BackColor = System.Drawing.Color.Black;
             this.label189.Location = new System.Drawing.Point(240, 222);
             this.label189.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label189.Name = "label189";
@@ -2553,7 +2553,7 @@
             // 
             // label190
             // 
-            this.label190.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label190.BackColor = System.Drawing.Color.Black;
             this.label190.Location = new System.Drawing.Point(270, 222);
             this.label190.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label190.Name = "label190";
@@ -2562,7 +2562,7 @@
             // 
             // label191
             // 
-            this.label191.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label191.BackColor = System.Drawing.Color.Black;
             this.label191.Location = new System.Drawing.Point(300, 222);
             this.label191.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label191.Name = "label191";
@@ -2571,7 +2571,7 @@
             // 
             // label192
             // 
-            this.label192.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label192.BackColor = System.Drawing.Color.Black;
             this.label192.Location = new System.Drawing.Point(330, 222);
             this.label192.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label192.Name = "label192";
@@ -2580,7 +2580,7 @@
             // 
             // label193
             // 
-            this.label193.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label193.BackColor = System.Drawing.Color.Black;
             this.label193.Location = new System.Drawing.Point(360, 222);
             this.label193.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label193.Name = "label193";
@@ -2589,7 +2589,7 @@
             // 
             // label194
             // 
-            this.label194.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label194.BackColor = System.Drawing.Color.Black;
             this.label194.Location = new System.Drawing.Point(390, 222);
             this.label194.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label194.Name = "label194";
@@ -2598,7 +2598,7 @@
             // 
             // label195
             // 
-            this.label195.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label195.BackColor = System.Drawing.Color.Black;
             this.label195.Location = new System.Drawing.Point(420, 222);
             this.label195.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label195.Name = "label195";
@@ -2607,7 +2607,7 @@
             // 
             // label196
             // 
-            this.label196.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label196.BackColor = System.Drawing.Color.Black;
             this.label196.Location = new System.Drawing.Point(450, 222);
             this.label196.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label196.Name = "label196";
@@ -2616,7 +2616,7 @@
             // 
             // label197
             // 
-            this.label197.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label197.BackColor = System.Drawing.Color.Black;
             this.label197.Location = new System.Drawing.Point(480, 222);
             this.label197.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label197.Name = "label197";
@@ -2625,7 +2625,7 @@
             // 
             // label198
             // 
-            this.label198.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label198.BackColor = System.Drawing.Color.Black;
             this.label198.Location = new System.Drawing.Point(510, 222);
             this.label198.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label198.Name = "label198";
@@ -2634,7 +2634,7 @@
             // 
             // label199
             // 
-            this.label199.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label199.BackColor = System.Drawing.Color.Black;
             this.label199.Location = new System.Drawing.Point(540, 222);
             this.label199.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label199.Name = "label199";
@@ -2643,7 +2643,7 @@
             // 
             // label200
             // 
-            this.label200.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label200.BackColor = System.Drawing.Color.Black;
             this.label200.Location = new System.Drawing.Point(570, 222);
             this.label200.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label200.Name = "label200";
@@ -2652,7 +2652,7 @@
             // 
             // label201
             // 
-            this.label201.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label201.BackColor = System.Drawing.Color.Black;
             this.label201.Location = new System.Drawing.Point(0, 246);
             this.label201.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label201.Name = "label201";
@@ -2661,7 +2661,7 @@
             // 
             // label202
             // 
-            this.label202.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label202.BackColor = System.Drawing.Color.Black;
             this.label202.Location = new System.Drawing.Point(30, 246);
             this.label202.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label202.Name = "label202";
@@ -2670,7 +2670,7 @@
             // 
             // label203
             // 
-            this.label203.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label203.BackColor = System.Drawing.Color.Black;
             this.label203.Location = new System.Drawing.Point(60, 246);
             this.label203.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label203.Name = "label203";
@@ -2679,7 +2679,7 @@
             // 
             // label204
             // 
-            this.label204.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label204.BackColor = System.Drawing.Color.Black;
             this.label204.Location = new System.Drawing.Point(90, 246);
             this.label204.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label204.Name = "label204";
@@ -2688,7 +2688,7 @@
             // 
             // label205
             // 
-            this.label205.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label205.BackColor = System.Drawing.Color.Black;
             this.label205.Location = new System.Drawing.Point(120, 246);
             this.label205.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label205.Name = "label205";
@@ -2697,7 +2697,7 @@
             // 
             // label206
             // 
-            this.label206.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label206.BackColor = System.Drawing.Color.Black;
             this.label206.Location = new System.Drawing.Point(150, 246);
             this.label206.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label206.Name = "label206";
@@ -2706,7 +2706,7 @@
             // 
             // label207
             // 
-            this.label207.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label207.BackColor = System.Drawing.Color.Black;
             this.label207.Location = new System.Drawing.Point(180, 246);
             this.label207.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label207.Name = "label207";
@@ -2715,7 +2715,7 @@
             // 
             // label208
             // 
-            this.label208.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label208.BackColor = System.Drawing.Color.Black;
             this.label208.Location = new System.Drawing.Point(210, 246);
             this.label208.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label208.Name = "label208";
@@ -2724,7 +2724,7 @@
             // 
             // label209
             // 
-            this.label209.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label209.BackColor = System.Drawing.Color.Black;
             this.label209.Location = new System.Drawing.Point(240, 246);
             this.label209.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label209.Name = "label209";
@@ -2733,7 +2733,7 @@
             // 
             // label210
             // 
-            this.label210.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label210.BackColor = System.Drawing.Color.Black;
             this.label210.Location = new System.Drawing.Point(270, 246);
             this.label210.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label210.Name = "label210";
@@ -2742,7 +2742,7 @@
             // 
             // label211
             // 
-            this.label211.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label211.BackColor = System.Drawing.Color.Black;
             this.label211.Location = new System.Drawing.Point(300, 246);
             this.label211.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label211.Name = "label211";
@@ -2751,7 +2751,7 @@
             // 
             // label212
             // 
-            this.label212.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label212.BackColor = System.Drawing.Color.Black;
             this.label212.Location = new System.Drawing.Point(330, 246);
             this.label212.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label212.Name = "label212";
@@ -2760,7 +2760,7 @@
             // 
             // label213
             // 
-            this.label213.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label213.BackColor = System.Drawing.Color.Black;
             this.label213.Location = new System.Drawing.Point(360, 246);
             this.label213.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label213.Name = "label213";
@@ -2769,7 +2769,7 @@
             // 
             // label214
             // 
-            this.label214.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label214.BackColor = System.Drawing.Color.Black;
             this.label214.Location = new System.Drawing.Point(390, 246);
             this.label214.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label214.Name = "label214";
@@ -2778,7 +2778,7 @@
             // 
             // label215
             // 
-            this.label215.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label215.BackColor = System.Drawing.Color.Black;
             this.label215.Location = new System.Drawing.Point(420, 246);
             this.label215.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label215.Name = "label215";
@@ -2787,7 +2787,7 @@
             // 
             // label216
             // 
-            this.label216.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label216.BackColor = System.Drawing.Color.Black;
             this.label216.Location = new System.Drawing.Point(450, 246);
             this.label216.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label216.Name = "label216";
@@ -2796,7 +2796,7 @@
             // 
             // label217
             // 
-            this.label217.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label217.BackColor = System.Drawing.Color.Black;
             this.label217.Location = new System.Drawing.Point(480, 246);
             this.label217.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label217.Name = "label217";
@@ -2805,7 +2805,7 @@
             // 
             // label218
             // 
-            this.label218.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label218.BackColor = System.Drawing.Color.Black;
             this.label218.Location = new System.Drawing.Point(510, 246);
             this.label218.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label218.Name = "label218";
@@ -2814,7 +2814,7 @@
             // 
             // label219
             // 
-            this.label219.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label219.BackColor = System.Drawing.Color.Black;
             this.label219.Location = new System.Drawing.Point(540, 246);
             this.label219.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label219.Name = "label219";
@@ -2823,7 +2823,7 @@
             // 
             // label220
             // 
-            this.label220.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label220.BackColor = System.Drawing.Color.Black;
             this.label220.Location = new System.Drawing.Point(570, 246);
             this.label220.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label220.Name = "label220";
@@ -2832,7 +2832,7 @@
             // 
             // label221
             // 
-            this.label221.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label221.BackColor = System.Drawing.Color.Black;
             this.label221.Location = new System.Drawing.Point(0, 271);
             this.label221.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label221.Name = "label221";
@@ -2841,7 +2841,7 @@
             // 
             // label222
             // 
-            this.label222.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label222.BackColor = System.Drawing.Color.Black;
             this.label222.Location = new System.Drawing.Point(30, 271);
             this.label222.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label222.Name = "label222";
@@ -2850,7 +2850,7 @@
             // 
             // label223
             // 
-            this.label223.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label223.BackColor = System.Drawing.Color.Black;
             this.label223.Location = new System.Drawing.Point(60, 271);
             this.label223.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label223.Name = "label223";
@@ -2859,7 +2859,7 @@
             // 
             // label224
             // 
-            this.label224.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label224.BackColor = System.Drawing.Color.Black;
             this.label224.Location = new System.Drawing.Point(90, 271);
             this.label224.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label224.Name = "label224";
@@ -2868,7 +2868,7 @@
             // 
             // label225
             // 
-            this.label225.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label225.BackColor = System.Drawing.Color.Black;
             this.label225.Location = new System.Drawing.Point(120, 271);
             this.label225.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label225.Name = "label225";
@@ -2877,7 +2877,7 @@
             // 
             // label226
             // 
-            this.label226.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label226.BackColor = System.Drawing.Color.Black;
             this.label226.Location = new System.Drawing.Point(150, 271);
             this.label226.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label226.Name = "label226";
@@ -2886,7 +2886,7 @@
             // 
             // label227
             // 
-            this.label227.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label227.BackColor = System.Drawing.Color.Black;
             this.label227.Location = new System.Drawing.Point(180, 271);
             this.label227.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label227.Name = "label227";
@@ -2895,7 +2895,7 @@
             // 
             // label228
             // 
-            this.label228.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label228.BackColor = System.Drawing.Color.Black;
             this.label228.Location = new System.Drawing.Point(210, 271);
             this.label228.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label228.Name = "label228";
@@ -2904,7 +2904,7 @@
             // 
             // label229
             // 
-            this.label229.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label229.BackColor = System.Drawing.Color.Black;
             this.label229.Location = new System.Drawing.Point(240, 271);
             this.label229.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label229.Name = "label229";
@@ -2913,7 +2913,7 @@
             // 
             // label230
             // 
-            this.label230.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label230.BackColor = System.Drawing.Color.Black;
             this.label230.Location = new System.Drawing.Point(270, 271);
             this.label230.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label230.Name = "label230";
@@ -2922,7 +2922,7 @@
             // 
             // label231
             // 
-            this.label231.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label231.BackColor = System.Drawing.Color.Black;
             this.label231.Location = new System.Drawing.Point(300, 271);
             this.label231.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label231.Name = "label231";
@@ -2931,7 +2931,7 @@
             // 
             // label232
             // 
-            this.label232.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label232.BackColor = System.Drawing.Color.Black;
             this.label232.Location = new System.Drawing.Point(330, 271);
             this.label232.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label232.Name = "label232";
@@ -2940,7 +2940,7 @@
             // 
             // label233
             // 
-            this.label233.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label233.BackColor = System.Drawing.Color.Black;
             this.label233.Location = new System.Drawing.Point(360, 271);
             this.label233.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label233.Name = "label233";
@@ -2949,7 +2949,7 @@
             // 
             // label234
             // 
-            this.label234.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label234.BackColor = System.Drawing.Color.Black;
             this.label234.Location = new System.Drawing.Point(390, 271);
             this.label234.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label234.Name = "label234";
@@ -2958,7 +2958,7 @@
             // 
             // label235
             // 
-            this.label235.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label235.BackColor = System.Drawing.Color.Black;
             this.label235.Location = new System.Drawing.Point(420, 271);
             this.label235.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label235.Name = "label235";
@@ -2967,7 +2967,7 @@
             // 
             // label236
             // 
-            this.label236.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label236.BackColor = System.Drawing.Color.Black;
             this.label236.Location = new System.Drawing.Point(450, 271);
             this.label236.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label236.Name = "label236";
@@ -2976,7 +2976,7 @@
             // 
             // label237
             // 
-            this.label237.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label237.BackColor = System.Drawing.Color.Black;
             this.label237.Location = new System.Drawing.Point(480, 271);
             this.label237.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label237.Name = "label237";
@@ -2985,7 +2985,7 @@
             // 
             // label238
             // 
-            this.label238.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label238.BackColor = System.Drawing.Color.Black;
             this.label238.Location = new System.Drawing.Point(510, 271);
             this.label238.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label238.Name = "label238";
@@ -2994,7 +2994,7 @@
             // 
             // label239
             // 
-            this.label239.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label239.BackColor = System.Drawing.Color.Black;
             this.label239.Location = new System.Drawing.Point(540, 271);
             this.label239.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label239.Name = "label239";
@@ -3003,7 +3003,7 @@
             // 
             // label240
             // 
-            this.label240.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label240.BackColor = System.Drawing.Color.Black;
             this.label240.Location = new System.Drawing.Point(570, 271);
             this.label240.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label240.Name = "label240";
@@ -3012,7 +3012,7 @@
             // 
             // label241
             // 
-            this.label241.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label241.BackColor = System.Drawing.Color.Black;
             this.label241.Location = new System.Drawing.Point(0, 295);
             this.label241.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label241.Name = "label241";
@@ -3021,7 +3021,7 @@
             // 
             // label242
             // 
-            this.label242.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label242.BackColor = System.Drawing.Color.Black;
             this.label242.Location = new System.Drawing.Point(30, 295);
             this.label242.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label242.Name = "label242";
@@ -3030,7 +3030,7 @@
             // 
             // label243
             // 
-            this.label243.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label243.BackColor = System.Drawing.Color.Black;
             this.label243.Location = new System.Drawing.Point(60, 295);
             this.label243.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label243.Name = "label243";
@@ -3039,7 +3039,7 @@
             // 
             // label244
             // 
-            this.label244.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label244.BackColor = System.Drawing.Color.Black;
             this.label244.Location = new System.Drawing.Point(90, 295);
             this.label244.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label244.Name = "label244";
@@ -3048,7 +3048,7 @@
             // 
             // label245
             // 
-            this.label245.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label245.BackColor = System.Drawing.Color.Black;
             this.label245.Location = new System.Drawing.Point(120, 295);
             this.label245.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label245.Name = "label245";
@@ -3057,7 +3057,7 @@
             // 
             // label246
             // 
-            this.label246.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label246.BackColor = System.Drawing.Color.Black;
             this.label246.Location = new System.Drawing.Point(150, 295);
             this.label246.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label246.Name = "label246";
@@ -3066,7 +3066,7 @@
             // 
             // label247
             // 
-            this.label247.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label247.BackColor = System.Drawing.Color.Black;
             this.label247.Location = new System.Drawing.Point(180, 295);
             this.label247.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label247.Name = "label247";
@@ -3075,7 +3075,7 @@
             // 
             // label248
             // 
-            this.label248.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label248.BackColor = System.Drawing.Color.Black;
             this.label248.Location = new System.Drawing.Point(210, 295);
             this.label248.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label248.Name = "label248";
@@ -3084,7 +3084,7 @@
             // 
             // label249
             // 
-            this.label249.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label249.BackColor = System.Drawing.Color.Black;
             this.label249.Location = new System.Drawing.Point(240, 295);
             this.label249.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label249.Name = "label249";
@@ -3093,7 +3093,7 @@
             // 
             // label250
             // 
-            this.label250.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label250.BackColor = System.Drawing.Color.Black;
             this.label250.Location = new System.Drawing.Point(270, 295);
             this.label250.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label250.Name = "label250";
@@ -3102,7 +3102,7 @@
             // 
             // label251
             // 
-            this.label251.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label251.BackColor = System.Drawing.Color.Black;
             this.label251.Location = new System.Drawing.Point(300, 295);
             this.label251.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label251.Name = "label251";
@@ -3111,7 +3111,7 @@
             // 
             // label252
             // 
-            this.label252.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label252.BackColor = System.Drawing.Color.Black;
             this.label252.Location = new System.Drawing.Point(330, 295);
             this.label252.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label252.Name = "label252";
@@ -3120,7 +3120,7 @@
             // 
             // label253
             // 
-            this.label253.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label253.BackColor = System.Drawing.Color.Black;
             this.label253.Location = new System.Drawing.Point(360, 295);
             this.label253.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label253.Name = "label253";
@@ -3129,7 +3129,7 @@
             // 
             // label254
             // 
-            this.label254.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label254.BackColor = System.Drawing.Color.Black;
             this.label254.Location = new System.Drawing.Point(390, 295);
             this.label254.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label254.Name = "label254";
@@ -3138,7 +3138,7 @@
             // 
             // label255
             // 
-            this.label255.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label255.BackColor = System.Drawing.Color.Black;
             this.label255.Location = new System.Drawing.Point(420, 295);
             this.label255.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label255.Name = "label255";
@@ -3147,7 +3147,7 @@
             // 
             // label256
             // 
-            this.label256.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label256.BackColor = System.Drawing.Color.Black;
             this.label256.Location = new System.Drawing.Point(450, 295);
             this.label256.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label256.Name = "label256";
@@ -3156,7 +3156,7 @@
             // 
             // label257
             // 
-            this.label257.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label257.BackColor = System.Drawing.Color.Black;
             this.label257.Location = new System.Drawing.Point(480, 295);
             this.label257.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label257.Name = "label257";
@@ -3165,7 +3165,7 @@
             // 
             // label258
             // 
-            this.label258.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label258.BackColor = System.Drawing.Color.Black;
             this.label258.Location = new System.Drawing.Point(510, 295);
             this.label258.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label258.Name = "label258";
@@ -3174,7 +3174,7 @@
             // 
             // label259
             // 
-            this.label259.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label259.BackColor = System.Drawing.Color.Black;
             this.label259.Location = new System.Drawing.Point(540, 295);
             this.label259.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label259.Name = "label259";
@@ -3183,7 +3183,7 @@
             // 
             // label260
             // 
-            this.label260.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label260.BackColor = System.Drawing.Color.Black;
             this.label260.Location = new System.Drawing.Point(570, 295);
             this.label260.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label260.Name = "label260";
@@ -3192,7 +3192,7 @@
             // 
             // label261
             // 
-            this.label261.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label261.BackColor = System.Drawing.Color.Black;
             this.label261.Location = new System.Drawing.Point(0, 320);
             this.label261.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label261.Name = "label261";
@@ -3201,7 +3201,7 @@
             // 
             // label262
             // 
-            this.label262.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label262.BackColor = System.Drawing.Color.Black;
             this.label262.Location = new System.Drawing.Point(30, 320);
             this.label262.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label262.Name = "label262";
@@ -3210,7 +3210,7 @@
             // 
             // label263
             // 
-            this.label263.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label263.BackColor = System.Drawing.Color.Black;
             this.label263.Location = new System.Drawing.Point(60, 320);
             this.label263.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label263.Name = "label263";
@@ -3219,7 +3219,7 @@
             // 
             // label264
             // 
-            this.label264.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label264.BackColor = System.Drawing.Color.Black;
             this.label264.Location = new System.Drawing.Point(90, 320);
             this.label264.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label264.Name = "label264";
@@ -3228,7 +3228,7 @@
             // 
             // label265
             // 
-            this.label265.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label265.BackColor = System.Drawing.Color.Black;
             this.label265.Location = new System.Drawing.Point(120, 320);
             this.label265.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label265.Name = "label265";
@@ -3237,7 +3237,7 @@
             // 
             // label266
             // 
-            this.label266.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label266.BackColor = System.Drawing.Color.Black;
             this.label266.Location = new System.Drawing.Point(150, 320);
             this.label266.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label266.Name = "label266";
@@ -3246,7 +3246,7 @@
             // 
             // label267
             // 
-            this.label267.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label267.BackColor = System.Drawing.Color.Black;
             this.label267.Location = new System.Drawing.Point(180, 320);
             this.label267.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label267.Name = "label267";
@@ -3255,7 +3255,7 @@
             // 
             // label268
             // 
-            this.label268.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label268.BackColor = System.Drawing.Color.Black;
             this.label268.Location = new System.Drawing.Point(210, 320);
             this.label268.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label268.Name = "label268";
@@ -3264,7 +3264,7 @@
             // 
             // label269
             // 
-            this.label269.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label269.BackColor = System.Drawing.Color.Black;
             this.label269.Location = new System.Drawing.Point(240, 320);
             this.label269.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label269.Name = "label269";
@@ -3273,7 +3273,7 @@
             // 
             // label270
             // 
-            this.label270.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label270.BackColor = System.Drawing.Color.Black;
             this.label270.Location = new System.Drawing.Point(270, 320);
             this.label270.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label270.Name = "label270";
@@ -3282,7 +3282,7 @@
             // 
             // label271
             // 
-            this.label271.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label271.BackColor = System.Drawing.Color.Black;
             this.label271.Location = new System.Drawing.Point(300, 320);
             this.label271.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label271.Name = "label271";
@@ -3291,7 +3291,7 @@
             // 
             // label272
             // 
-            this.label272.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label272.BackColor = System.Drawing.Color.Black;
             this.label272.Location = new System.Drawing.Point(330, 320);
             this.label272.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label272.Name = "label272";
@@ -3300,7 +3300,7 @@
             // 
             // label273
             // 
-            this.label273.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label273.BackColor = System.Drawing.Color.Black;
             this.label273.Location = new System.Drawing.Point(360, 320);
             this.label273.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label273.Name = "label273";
@@ -3309,7 +3309,7 @@
             // 
             // label274
             // 
-            this.label274.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label274.BackColor = System.Drawing.Color.Black;
             this.label274.Location = new System.Drawing.Point(390, 320);
             this.label274.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label274.Name = "label274";
@@ -3318,7 +3318,7 @@
             // 
             // label275
             // 
-            this.label275.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label275.BackColor = System.Drawing.Color.Black;
             this.label275.Location = new System.Drawing.Point(420, 320);
             this.label275.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label275.Name = "label275";
@@ -3327,7 +3327,7 @@
             // 
             // label276
             // 
-            this.label276.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label276.BackColor = System.Drawing.Color.Black;
             this.label276.Location = new System.Drawing.Point(450, 320);
             this.label276.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label276.Name = "label276";
@@ -3336,7 +3336,7 @@
             // 
             // label277
             // 
-            this.label277.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label277.BackColor = System.Drawing.Color.Black;
             this.label277.Location = new System.Drawing.Point(480, 320);
             this.label277.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label277.Name = "label277";
@@ -3345,7 +3345,7 @@
             // 
             // label278
             // 
-            this.label278.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label278.BackColor = System.Drawing.Color.Black;
             this.label278.Location = new System.Drawing.Point(510, 320);
             this.label278.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label278.Name = "label278";
@@ -3354,7 +3354,7 @@
             // 
             // label279
             // 
-            this.label279.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label279.BackColor = System.Drawing.Color.Black;
             this.label279.Location = new System.Drawing.Point(540, 320);
             this.label279.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label279.Name = "label279";
@@ -3363,7 +3363,7 @@
             // 
             // label280
             // 
-            this.label280.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label280.BackColor = System.Drawing.Color.Black;
             this.label280.Location = new System.Drawing.Point(570, 320);
             this.label280.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label280.Name = "label280";
@@ -3372,7 +3372,7 @@
             // 
             // label281
             // 
-            this.label281.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label281.BackColor = System.Drawing.Color.Black;
             this.label281.Location = new System.Drawing.Point(0, 345);
             this.label281.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label281.Name = "label281";
@@ -3381,7 +3381,7 @@
             // 
             // label282
             // 
-            this.label282.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label282.BackColor = System.Drawing.Color.Black;
             this.label282.Location = new System.Drawing.Point(30, 345);
             this.label282.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label282.Name = "label282";
@@ -3390,7 +3390,7 @@
             // 
             // label283
             // 
-            this.label283.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label283.BackColor = System.Drawing.Color.Black;
             this.label283.Location = new System.Drawing.Point(60, 345);
             this.label283.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label283.Name = "label283";
@@ -3399,7 +3399,7 @@
             // 
             // label284
             // 
-            this.label284.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label284.BackColor = System.Drawing.Color.Black;
             this.label284.Location = new System.Drawing.Point(90, 345);
             this.label284.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label284.Name = "label284";
@@ -3408,7 +3408,7 @@
             // 
             // label285
             // 
-            this.label285.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label285.BackColor = System.Drawing.Color.Black;
             this.label285.Location = new System.Drawing.Point(120, 345);
             this.label285.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label285.Name = "label285";
@@ -3417,7 +3417,7 @@
             // 
             // label286
             // 
-            this.label286.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label286.BackColor = System.Drawing.Color.Black;
             this.label286.Location = new System.Drawing.Point(150, 345);
             this.label286.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label286.Name = "label286";
@@ -3426,7 +3426,7 @@
             // 
             // label287
             // 
-            this.label287.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label287.BackColor = System.Drawing.Color.Black;
             this.label287.Location = new System.Drawing.Point(180, 345);
             this.label287.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label287.Name = "label287";
@@ -3435,7 +3435,7 @@
             // 
             // label288
             // 
-            this.label288.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label288.BackColor = System.Drawing.Color.Black;
             this.label288.Location = new System.Drawing.Point(210, 345);
             this.label288.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label288.Name = "label288";
@@ -3444,7 +3444,7 @@
             // 
             // label289
             // 
-            this.label289.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label289.BackColor = System.Drawing.Color.Black;
             this.label289.Location = new System.Drawing.Point(240, 345);
             this.label289.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label289.Name = "label289";
@@ -3453,7 +3453,7 @@
             // 
             // label290
             // 
-            this.label290.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label290.BackColor = System.Drawing.Color.Black;
             this.label290.Location = new System.Drawing.Point(270, 345);
             this.label290.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label290.Name = "label290";
@@ -3462,7 +3462,7 @@
             // 
             // label291
             // 
-            this.label291.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label291.BackColor = System.Drawing.Color.Black;
             this.label291.Location = new System.Drawing.Point(300, 345);
             this.label291.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label291.Name = "label291";
@@ -3471,7 +3471,7 @@
             // 
             // label292
             // 
-            this.label292.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label292.BackColor = System.Drawing.Color.Black;
             this.label292.Location = new System.Drawing.Point(330, 345);
             this.label292.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label292.Name = "label292";
@@ -3480,7 +3480,7 @@
             // 
             // label293
             // 
-            this.label293.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label293.BackColor = System.Drawing.Color.Black;
             this.label293.Location = new System.Drawing.Point(360, 345);
             this.label293.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label293.Name = "label293";
@@ -3489,7 +3489,7 @@
             // 
             // label294
             // 
-            this.label294.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label294.BackColor = System.Drawing.Color.Black;
             this.label294.Location = new System.Drawing.Point(390, 345);
             this.label294.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label294.Name = "label294";
@@ -3498,7 +3498,7 @@
             // 
             // label295
             // 
-            this.label295.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label295.BackColor = System.Drawing.Color.Black;
             this.label295.Location = new System.Drawing.Point(420, 345);
             this.label295.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label295.Name = "label295";
@@ -3507,7 +3507,7 @@
             // 
             // label296
             // 
-            this.label296.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label296.BackColor = System.Drawing.Color.Black;
             this.label296.Location = new System.Drawing.Point(450, 345);
             this.label296.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label296.Name = "label296";
@@ -3516,7 +3516,7 @@
             // 
             // label297
             // 
-            this.label297.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label297.BackColor = System.Drawing.Color.Black;
             this.label297.Location = new System.Drawing.Point(480, 345);
             this.label297.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label297.Name = "label297";
@@ -3525,7 +3525,7 @@
             // 
             // label298
             // 
-            this.label298.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label298.BackColor = System.Drawing.Color.Black;
             this.label298.Location = new System.Drawing.Point(510, 345);
             this.label298.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label298.Name = "label298";
@@ -3534,7 +3534,7 @@
             // 
             // label299
             // 
-            this.label299.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label299.BackColor = System.Drawing.Color.Black;
             this.label299.Location = new System.Drawing.Point(540, 345);
             this.label299.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label299.Name = "label299";
@@ -3543,7 +3543,7 @@
             // 
             // label300
             // 
-            this.label300.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label300.BackColor = System.Drawing.Color.Black;
             this.label300.Location = new System.Drawing.Point(570, 345);
             this.label300.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label300.Name = "label300";
@@ -3552,7 +3552,7 @@
             // 
             // label301
             // 
-            this.label301.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label301.BackColor = System.Drawing.Color.Black;
             this.label301.Location = new System.Drawing.Point(0, 369);
             this.label301.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label301.Name = "label301";
@@ -3561,7 +3561,7 @@
             // 
             // label302
             // 
-            this.label302.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label302.BackColor = System.Drawing.Color.Black;
             this.label302.Location = new System.Drawing.Point(30, 369);
             this.label302.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label302.Name = "label302";
@@ -3570,7 +3570,7 @@
             // 
             // label303
             // 
-            this.label303.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label303.BackColor = System.Drawing.Color.Black;
             this.label303.Location = new System.Drawing.Point(60, 369);
             this.label303.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label303.Name = "label303";
@@ -3579,7 +3579,7 @@
             // 
             // label304
             // 
-            this.label304.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label304.BackColor = System.Drawing.Color.Black;
             this.label304.Location = new System.Drawing.Point(90, 369);
             this.label304.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label304.Name = "label304";
@@ -3588,7 +3588,7 @@
             // 
             // label305
             // 
-            this.label305.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label305.BackColor = System.Drawing.Color.Black;
             this.label305.Location = new System.Drawing.Point(120, 369);
             this.label305.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label305.Name = "label305";
@@ -3597,7 +3597,7 @@
             // 
             // label306
             // 
-            this.label306.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label306.BackColor = System.Drawing.Color.Black;
             this.label306.Location = new System.Drawing.Point(150, 369);
             this.label306.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label306.Name = "label306";
@@ -3606,7 +3606,7 @@
             // 
             // label307
             // 
-            this.label307.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label307.BackColor = System.Drawing.Color.Black;
             this.label307.Location = new System.Drawing.Point(180, 369);
             this.label307.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label307.Name = "label307";
@@ -3615,7 +3615,7 @@
             // 
             // label308
             // 
-            this.label308.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label308.BackColor = System.Drawing.Color.Black;
             this.label308.Location = new System.Drawing.Point(210, 369);
             this.label308.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label308.Name = "label308";
@@ -3624,7 +3624,7 @@
             // 
             // label309
             // 
-            this.label309.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label309.BackColor = System.Drawing.Color.Black;
             this.label309.Location = new System.Drawing.Point(240, 369);
             this.label309.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label309.Name = "label309";
@@ -3633,7 +3633,7 @@
             // 
             // label310
             // 
-            this.label310.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label310.BackColor = System.Drawing.Color.Black;
             this.label310.Location = new System.Drawing.Point(270, 369);
             this.label310.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label310.Name = "label310";
@@ -3642,7 +3642,7 @@
             // 
             // label311
             // 
-            this.label311.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label311.BackColor = System.Drawing.Color.Black;
             this.label311.Location = new System.Drawing.Point(300, 369);
             this.label311.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label311.Name = "label311";
@@ -3651,7 +3651,7 @@
             // 
             // label312
             // 
-            this.label312.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label312.BackColor = System.Drawing.Color.Black;
             this.label312.Location = new System.Drawing.Point(330, 369);
             this.label312.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label312.Name = "label312";
@@ -3660,7 +3660,7 @@
             // 
             // label313
             // 
-            this.label313.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label313.BackColor = System.Drawing.Color.Black;
             this.label313.Location = new System.Drawing.Point(360, 369);
             this.label313.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label313.Name = "label313";
@@ -3669,7 +3669,7 @@
             // 
             // label314
             // 
-            this.label314.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label314.BackColor = System.Drawing.Color.Black;
             this.label314.Location = new System.Drawing.Point(390, 369);
             this.label314.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label314.Name = "label314";
@@ -3678,7 +3678,7 @@
             // 
             // label315
             // 
-            this.label315.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label315.BackColor = System.Drawing.Color.Black;
             this.label315.Location = new System.Drawing.Point(420, 369);
             this.label315.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label315.Name = "label315";
@@ -3687,7 +3687,7 @@
             // 
             // label316
             // 
-            this.label316.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label316.BackColor = System.Drawing.Color.Black;
             this.label316.Location = new System.Drawing.Point(450, 369);
             this.label316.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label316.Name = "label316";
@@ -3696,7 +3696,7 @@
             // 
             // label317
             // 
-            this.label317.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label317.BackColor = System.Drawing.Color.Black;
             this.label317.Location = new System.Drawing.Point(480, 369);
             this.label317.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label317.Name = "label317";
@@ -3705,7 +3705,7 @@
             // 
             // label318
             // 
-            this.label318.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label318.BackColor = System.Drawing.Color.Black;
             this.label318.Location = new System.Drawing.Point(510, 369);
             this.label318.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label318.Name = "label318";
@@ -3714,7 +3714,7 @@
             // 
             // label319
             // 
-            this.label319.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label319.BackColor = System.Drawing.Color.Black;
             this.label319.Location = new System.Drawing.Point(540, 369);
             this.label319.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label319.Name = "label319";
@@ -3723,7 +3723,7 @@
             // 
             // label320
             // 
-            this.label320.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label320.BackColor = System.Drawing.Color.Black;
             this.label320.Location = new System.Drawing.Point(570, 369);
             this.label320.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label320.Name = "label320";
@@ -3732,7 +3732,7 @@
             // 
             // label321
             // 
-            this.label321.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label321.BackColor = System.Drawing.Color.Black;
             this.label321.Location = new System.Drawing.Point(0, 394);
             this.label321.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label321.Name = "label321";
@@ -3741,7 +3741,7 @@
             // 
             // label322
             // 
-            this.label322.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label322.BackColor = System.Drawing.Color.Black;
             this.label322.Location = new System.Drawing.Point(30, 394);
             this.label322.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label322.Name = "label322";
@@ -3750,7 +3750,7 @@
             // 
             // label323
             // 
-            this.label323.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label323.BackColor = System.Drawing.Color.Black;
             this.label323.Location = new System.Drawing.Point(60, 394);
             this.label323.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label323.Name = "label323";
@@ -3759,7 +3759,7 @@
             // 
             // label324
             // 
-            this.label324.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label324.BackColor = System.Drawing.Color.Black;
             this.label324.Location = new System.Drawing.Point(90, 394);
             this.label324.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label324.Name = "label324";
@@ -3768,7 +3768,7 @@
             // 
             // label325
             // 
-            this.label325.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label325.BackColor = System.Drawing.Color.Black;
             this.label325.Location = new System.Drawing.Point(120, 394);
             this.label325.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label325.Name = "label325";
@@ -3777,7 +3777,7 @@
             // 
             // label326
             // 
-            this.label326.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label326.BackColor = System.Drawing.Color.Black;
             this.label326.Location = new System.Drawing.Point(150, 394);
             this.label326.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label326.Name = "label326";
@@ -3786,7 +3786,7 @@
             // 
             // label327
             // 
-            this.label327.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label327.BackColor = System.Drawing.Color.Black;
             this.label327.Location = new System.Drawing.Point(180, 394);
             this.label327.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label327.Name = "label327";
@@ -3795,7 +3795,7 @@
             // 
             // label328
             // 
-            this.label328.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label328.BackColor = System.Drawing.Color.Black;
             this.label328.Location = new System.Drawing.Point(210, 394);
             this.label328.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label328.Name = "label328";
@@ -3804,7 +3804,7 @@
             // 
             // label329
             // 
-            this.label329.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label329.BackColor = System.Drawing.Color.Black;
             this.label329.Location = new System.Drawing.Point(240, 394);
             this.label329.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label329.Name = "label329";
@@ -3813,7 +3813,7 @@
             // 
             // label330
             // 
-            this.label330.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label330.BackColor = System.Drawing.Color.Black;
             this.label330.Location = new System.Drawing.Point(270, 394);
             this.label330.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label330.Name = "label330";
@@ -3822,7 +3822,7 @@
             // 
             // label331
             // 
-            this.label331.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label331.BackColor = System.Drawing.Color.Black;
             this.label331.Location = new System.Drawing.Point(300, 394);
             this.label331.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label331.Name = "label331";
@@ -3831,7 +3831,7 @@
             // 
             // label332
             // 
-            this.label332.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label332.BackColor = System.Drawing.Color.Black;
             this.label332.Location = new System.Drawing.Point(330, 394);
             this.label332.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label332.Name = "label332";
@@ -3840,7 +3840,7 @@
             // 
             // label333
             // 
-            this.label333.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label333.BackColor = System.Drawing.Color.Black;
             this.label333.Location = new System.Drawing.Point(360, 394);
             this.label333.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label333.Name = "label333";
@@ -3849,7 +3849,7 @@
             // 
             // label334
             // 
-            this.label334.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label334.BackColor = System.Drawing.Color.Black;
             this.label334.Location = new System.Drawing.Point(390, 394);
             this.label334.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label334.Name = "label334";
@@ -3858,7 +3858,7 @@
             // 
             // label335
             // 
-            this.label335.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label335.BackColor = System.Drawing.Color.Black;
             this.label335.Location = new System.Drawing.Point(420, 394);
             this.label335.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label335.Name = "label335";
@@ -3867,7 +3867,7 @@
             // 
             // label336
             // 
-            this.label336.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label336.BackColor = System.Drawing.Color.Black;
             this.label336.Location = new System.Drawing.Point(450, 394);
             this.label336.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label336.Name = "label336";
@@ -3876,7 +3876,7 @@
             // 
             // label337
             // 
-            this.label337.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label337.BackColor = System.Drawing.Color.Black;
             this.label337.Location = new System.Drawing.Point(480, 394);
             this.label337.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label337.Name = "label337";
@@ -3885,7 +3885,7 @@
             // 
             // label338
             // 
-            this.label338.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label338.BackColor = System.Drawing.Color.Black;
             this.label338.Location = new System.Drawing.Point(510, 394);
             this.label338.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label338.Name = "label338";
@@ -3894,7 +3894,7 @@
             // 
             // label339
             // 
-            this.label339.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label339.BackColor = System.Drawing.Color.Black;
             this.label339.Location = new System.Drawing.Point(540, 394);
             this.label339.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label339.Name = "label339";
@@ -3903,7 +3903,7 @@
             // 
             // label340
             // 
-            this.label340.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label340.BackColor = System.Drawing.Color.Black;
             this.label340.Location = new System.Drawing.Point(570, 394);
             this.label340.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label340.Name = "label340";
@@ -3912,7 +3912,7 @@
             // 
             // label341
             // 
-            this.label341.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label341.BackColor = System.Drawing.Color.Black;
             this.label341.Location = new System.Drawing.Point(0, 418);
             this.label341.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label341.Name = "label341";
@@ -3921,7 +3921,7 @@
             // 
             // label342
             // 
-            this.label342.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label342.BackColor = System.Drawing.Color.Black;
             this.label342.Location = new System.Drawing.Point(30, 418);
             this.label342.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label342.Name = "label342";
@@ -3930,7 +3930,7 @@
             // 
             // label343
             // 
-            this.label343.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label343.BackColor = System.Drawing.Color.Black;
             this.label343.Location = new System.Drawing.Point(60, 418);
             this.label343.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label343.Name = "label343";
@@ -3939,7 +3939,7 @@
             // 
             // label344
             // 
-            this.label344.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label344.BackColor = System.Drawing.Color.Black;
             this.label344.Location = new System.Drawing.Point(90, 418);
             this.label344.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label344.Name = "label344";
@@ -3948,7 +3948,7 @@
             // 
             // label345
             // 
-            this.label345.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label345.BackColor = System.Drawing.Color.Black;
             this.label345.Location = new System.Drawing.Point(120, 418);
             this.label345.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label345.Name = "label345";
@@ -3957,7 +3957,7 @@
             // 
             // label346
             // 
-            this.label346.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label346.BackColor = System.Drawing.Color.Black;
             this.label346.Location = new System.Drawing.Point(150, 418);
             this.label346.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label346.Name = "label346";
@@ -3966,7 +3966,7 @@
             // 
             // label347
             // 
-            this.label347.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label347.BackColor = System.Drawing.Color.Black;
             this.label347.Location = new System.Drawing.Point(180, 418);
             this.label347.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label347.Name = "label347";
@@ -3975,7 +3975,7 @@
             // 
             // label348
             // 
-            this.label348.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label348.BackColor = System.Drawing.Color.Black;
             this.label348.Location = new System.Drawing.Point(210, 418);
             this.label348.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label348.Name = "label348";
@@ -3984,7 +3984,7 @@
             // 
             // label349
             // 
-            this.label349.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label349.BackColor = System.Drawing.Color.Black;
             this.label349.Location = new System.Drawing.Point(240, 418);
             this.label349.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label349.Name = "label349";
@@ -3993,7 +3993,7 @@
             // 
             // label350
             // 
-            this.label350.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label350.BackColor = System.Drawing.Color.Black;
             this.label350.Location = new System.Drawing.Point(270, 418);
             this.label350.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label350.Name = "label350";
@@ -4002,7 +4002,7 @@
             // 
             // label351
             // 
-            this.label351.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label351.BackColor = System.Drawing.Color.Black;
             this.label351.Location = new System.Drawing.Point(300, 418);
             this.label351.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label351.Name = "label351";
@@ -4011,7 +4011,7 @@
             // 
             // label352
             // 
-            this.label352.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label352.BackColor = System.Drawing.Color.Black;
             this.label352.Location = new System.Drawing.Point(330, 418);
             this.label352.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label352.Name = "label352";
@@ -4020,7 +4020,7 @@
             // 
             // label353
             // 
-            this.label353.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label353.BackColor = System.Drawing.Color.Black;
             this.label353.Location = new System.Drawing.Point(360, 418);
             this.label353.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label353.Name = "label353";
@@ -4029,7 +4029,7 @@
             // 
             // label354
             // 
-            this.label354.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label354.BackColor = System.Drawing.Color.Black;
             this.label354.Location = new System.Drawing.Point(390, 418);
             this.label354.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label354.Name = "label354";
@@ -4038,7 +4038,7 @@
             // 
             // label355
             // 
-            this.label355.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label355.BackColor = System.Drawing.Color.Black;
             this.label355.Location = new System.Drawing.Point(420, 418);
             this.label355.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label355.Name = "label355";
@@ -4047,7 +4047,7 @@
             // 
             // label356
             // 
-            this.label356.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label356.BackColor = System.Drawing.Color.Black;
             this.label356.Location = new System.Drawing.Point(450, 418);
             this.label356.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label356.Name = "label356";
@@ -4056,7 +4056,7 @@
             // 
             // label357
             // 
-            this.label357.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label357.BackColor = System.Drawing.Color.Black;
             this.label357.Location = new System.Drawing.Point(480, 418);
             this.label357.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label357.Name = "label357";
@@ -4065,7 +4065,7 @@
             // 
             // label358
             // 
-            this.label358.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label358.BackColor = System.Drawing.Color.Black;
             this.label358.Location = new System.Drawing.Point(510, 418);
             this.label358.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label358.Name = "label358";
@@ -4074,7 +4074,7 @@
             // 
             // label359
             // 
-            this.label359.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label359.BackColor = System.Drawing.Color.Black;
             this.label359.Location = new System.Drawing.Point(540, 418);
             this.label359.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label359.Name = "label359";
@@ -4083,7 +4083,7 @@
             // 
             // label360
             // 
-            this.label360.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label360.BackColor = System.Drawing.Color.Black;
             this.label360.Location = new System.Drawing.Point(570, 418);
             this.label360.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label360.Name = "label360";
@@ -4092,7 +4092,7 @@
             // 
             // label361
             // 
-            this.label361.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label361.BackColor = System.Drawing.Color.Black;
             this.label361.Location = new System.Drawing.Point(0, 443);
             this.label361.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label361.Name = "label361";
@@ -4101,7 +4101,7 @@
             // 
             // label362
             // 
-            this.label362.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label362.BackColor = System.Drawing.Color.Black;
             this.label362.Location = new System.Drawing.Point(30, 443);
             this.label362.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label362.Name = "label362";
@@ -4110,7 +4110,7 @@
             // 
             // label363
             // 
-            this.label363.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label363.BackColor = System.Drawing.Color.Black;
             this.label363.Location = new System.Drawing.Point(60, 443);
             this.label363.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label363.Name = "label363";
@@ -4119,7 +4119,7 @@
             // 
             // label364
             // 
-            this.label364.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label364.BackColor = System.Drawing.Color.Black;
             this.label364.Location = new System.Drawing.Point(90, 443);
             this.label364.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label364.Name = "label364";
@@ -4128,7 +4128,7 @@
             // 
             // label365
             // 
-            this.label365.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label365.BackColor = System.Drawing.Color.Black;
             this.label365.Location = new System.Drawing.Point(120, 443);
             this.label365.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label365.Name = "label365";
@@ -4137,7 +4137,7 @@
             // 
             // label366
             // 
-            this.label366.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label366.BackColor = System.Drawing.Color.Black;
             this.label366.Location = new System.Drawing.Point(150, 443);
             this.label366.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label366.Name = "label366";
@@ -4146,7 +4146,7 @@
             // 
             // label367
             // 
-            this.label367.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label367.BackColor = System.Drawing.Color.Black;
             this.label367.Location = new System.Drawing.Point(180, 443);
             this.label367.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label367.Name = "label367";
@@ -4155,7 +4155,7 @@
             // 
             // label368
             // 
-            this.label368.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label368.BackColor = System.Drawing.Color.Black;
             this.label368.Location = new System.Drawing.Point(210, 443);
             this.label368.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label368.Name = "label368";
@@ -4164,7 +4164,7 @@
             // 
             // label369
             // 
-            this.label369.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label369.BackColor = System.Drawing.Color.Black;
             this.label369.Location = new System.Drawing.Point(240, 443);
             this.label369.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label369.Name = "label369";
@@ -4173,7 +4173,7 @@
             // 
             // label370
             // 
-            this.label370.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label370.BackColor = System.Drawing.Color.Black;
             this.label370.Location = new System.Drawing.Point(270, 443);
             this.label370.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label370.Name = "label370";
@@ -4182,7 +4182,7 @@
             // 
             // label371
             // 
-            this.label371.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label371.BackColor = System.Drawing.Color.Black;
             this.label371.Location = new System.Drawing.Point(300, 443);
             this.label371.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label371.Name = "label371";
@@ -4191,7 +4191,7 @@
             // 
             // label372
             // 
-            this.label372.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label372.BackColor = System.Drawing.Color.Black;
             this.label372.Location = new System.Drawing.Point(330, 443);
             this.label372.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label372.Name = "label372";
@@ -4200,7 +4200,7 @@
             // 
             // label373
             // 
-            this.label373.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label373.BackColor = System.Drawing.Color.Black;
             this.label373.Location = new System.Drawing.Point(360, 443);
             this.label373.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label373.Name = "label373";
@@ -4209,7 +4209,7 @@
             // 
             // label374
             // 
-            this.label374.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label374.BackColor = System.Drawing.Color.Black;
             this.label374.Location = new System.Drawing.Point(390, 443);
             this.label374.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label374.Name = "label374";
@@ -4218,7 +4218,7 @@
             // 
             // label375
             // 
-            this.label375.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label375.BackColor = System.Drawing.Color.Black;
             this.label375.Location = new System.Drawing.Point(420, 443);
             this.label375.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label375.Name = "label375";
@@ -4227,7 +4227,7 @@
             // 
             // label376
             // 
-            this.label376.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label376.BackColor = System.Drawing.Color.Black;
             this.label376.Location = new System.Drawing.Point(450, 443);
             this.label376.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label376.Name = "label376";
@@ -4236,7 +4236,7 @@
             // 
             // label377
             // 
-            this.label377.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label377.BackColor = System.Drawing.Color.Black;
             this.label377.Location = new System.Drawing.Point(480, 443);
             this.label377.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label377.Name = "label377";
@@ -4245,7 +4245,7 @@
             // 
             // label378
             // 
-            this.label378.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label378.BackColor = System.Drawing.Color.Black;
             this.label378.Location = new System.Drawing.Point(510, 443);
             this.label378.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label378.Name = "label378";
@@ -4254,7 +4254,7 @@
             // 
             // label379
             // 
-            this.label379.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label379.BackColor = System.Drawing.Color.Black;
             this.label379.Location = new System.Drawing.Point(540, 443);
             this.label379.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label379.Name = "label379";
@@ -4263,7 +4263,7 @@
             // 
             // label380
             // 
-            this.label380.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label380.BackColor = System.Drawing.Color.Black;
             this.label380.Location = new System.Drawing.Point(570, 443);
             this.label380.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label380.Name = "label380";
@@ -4272,7 +4272,7 @@
             // 
             // label381
             // 
-            this.label381.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label381.BackColor = System.Drawing.Color.Black;
             this.label381.Location = new System.Drawing.Point(0, 468);
             this.label381.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label381.Name = "label381";
@@ -4281,7 +4281,7 @@
             // 
             // label382
             // 
-            this.label382.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label382.BackColor = System.Drawing.Color.Black;
             this.label382.Location = new System.Drawing.Point(30, 468);
             this.label382.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label382.Name = "label382";
@@ -4290,7 +4290,7 @@
             // 
             // label383
             // 
-            this.label383.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label383.BackColor = System.Drawing.Color.Black;
             this.label383.Location = new System.Drawing.Point(60, 468);
             this.label383.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label383.Name = "label383";
@@ -4299,7 +4299,7 @@
             // 
             // label384
             // 
-            this.label384.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label384.BackColor = System.Drawing.Color.Black;
             this.label384.Location = new System.Drawing.Point(90, 468);
             this.label384.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label384.Name = "label384";
@@ -4308,7 +4308,7 @@
             // 
             // label385
             // 
-            this.label385.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label385.BackColor = System.Drawing.Color.Black;
             this.label385.Location = new System.Drawing.Point(120, 468);
             this.label385.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label385.Name = "label385";
@@ -4317,7 +4317,7 @@
             // 
             // label386
             // 
-            this.label386.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label386.BackColor = System.Drawing.Color.Black;
             this.label386.Location = new System.Drawing.Point(150, 468);
             this.label386.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label386.Name = "label386";
@@ -4326,7 +4326,7 @@
             // 
             // label387
             // 
-            this.label387.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label387.BackColor = System.Drawing.Color.Black;
             this.label387.Location = new System.Drawing.Point(180, 468);
             this.label387.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label387.Name = "label387";
@@ -4335,7 +4335,7 @@
             // 
             // label388
             // 
-            this.label388.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label388.BackColor = System.Drawing.Color.Black;
             this.label388.Location = new System.Drawing.Point(210, 468);
             this.label388.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label388.Name = "label388";
@@ -4344,7 +4344,7 @@
             // 
             // label389
             // 
-            this.label389.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label389.BackColor = System.Drawing.Color.Black;
             this.label389.Location = new System.Drawing.Point(240, 468);
             this.label389.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label389.Name = "label389";
@@ -4353,7 +4353,7 @@
             // 
             // label390
             // 
-            this.label390.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label390.BackColor = System.Drawing.Color.Black;
             this.label390.Location = new System.Drawing.Point(270, 468);
             this.label390.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label390.Name = "label390";
@@ -4362,7 +4362,7 @@
             // 
             // label391
             // 
-            this.label391.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label391.BackColor = System.Drawing.Color.Black;
             this.label391.Location = new System.Drawing.Point(300, 468);
             this.label391.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label391.Name = "label391";
@@ -4371,7 +4371,7 @@
             // 
             // label392
             // 
-            this.label392.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label392.BackColor = System.Drawing.Color.Black;
             this.label392.Location = new System.Drawing.Point(330, 468);
             this.label392.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label392.Name = "label392";
@@ -4380,7 +4380,7 @@
             // 
             // label393
             // 
-            this.label393.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label393.BackColor = System.Drawing.Color.Black;
             this.label393.Location = new System.Drawing.Point(360, 468);
             this.label393.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label393.Name = "label393";
@@ -4389,7 +4389,7 @@
             // 
             // label394
             // 
-            this.label394.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label394.BackColor = System.Drawing.Color.Black;
             this.label394.Location = new System.Drawing.Point(390, 468);
             this.label394.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label394.Name = "label394";
@@ -4398,7 +4398,7 @@
             // 
             // label395
             // 
-            this.label395.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label395.BackColor = System.Drawing.Color.Black;
             this.label395.Location = new System.Drawing.Point(420, 468);
             this.label395.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label395.Name = "label395";
@@ -4407,7 +4407,7 @@
             // 
             // label396
             // 
-            this.label396.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label396.BackColor = System.Drawing.Color.Black;
             this.label396.Location = new System.Drawing.Point(450, 468);
             this.label396.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label396.Name = "label396";
@@ -4416,7 +4416,7 @@
             // 
             // label397
             // 
-            this.label397.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label397.BackColor = System.Drawing.Color.Black;
             this.label397.Location = new System.Drawing.Point(480, 468);
             this.label397.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label397.Name = "label397";
@@ -4425,7 +4425,7 @@
             // 
             // label398
             // 
-            this.label398.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label398.BackColor = System.Drawing.Color.Black;
             this.label398.Location = new System.Drawing.Point(510, 468);
             this.label398.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label398.Name = "label398";
@@ -4434,7 +4434,7 @@
             // 
             // label399
             // 
-            this.label399.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label399.BackColor = System.Drawing.Color.Black;
             this.label399.Location = new System.Drawing.Point(540, 468);
             this.label399.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label399.Name = "label399";
@@ -4443,7 +4443,7 @@
             // 
             // label400
             // 
-            this.label400.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label400.BackColor = System.Drawing.Color.Black;
             this.label400.Location = new System.Drawing.Point(570, 468);
             this.label400.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label400.Name = "label400";
@@ -4452,85 +4452,72 @@
             // 
             // btnup
             // 
-            this.btnup.BackColor = System.Drawing.Color.Black;
             this.btnup.Font = new System.Drawing.Font("Wingdings 3", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.btnup.ForeColor = System.Drawing.Color.White;
             this.btnup.Location = new System.Drawing.Point(414, 548);
             this.btnup.Margin = new System.Windows.Forms.Padding(4);
             this.btnup.Name = "btnup";
             this.btnup.Size = new System.Drawing.Size(112, 28);
             this.btnup.TabIndex = 1;
             this.btnup.Text = "h";
-            this.btnup.UseVisualStyleBackColor = false;
+            this.btnup.UseVisualStyleBackColor = true;
             this.btnup.Click += new System.EventHandler(this.btnup_Click);
             // 
             // btnleft
             // 
-            this.btnleft.BackColor = System.Drawing.Color.Black;
             this.btnleft.Font = new System.Drawing.Font("Wingdings 3", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.btnleft.ForeColor = System.Drawing.Color.White;
             this.btnleft.Location = new System.Drawing.Point(321, 583);
             this.btnleft.Margin = new System.Windows.Forms.Padding(4);
             this.btnleft.Name = "btnleft";
             this.btnleft.Size = new System.Drawing.Size(112, 28);
             this.btnleft.TabIndex = 2;
             this.btnleft.Text = "f";
-            this.btnleft.UseVisualStyleBackColor = false;
+            this.btnleft.UseVisualStyleBackColor = true;
             this.btnleft.Click += new System.EventHandler(this.btnleft_Click);
             // 
             // btnright
             // 
-            this.btnright.BackColor = System.Drawing.Color.Black;
             this.btnright.Font = new System.Drawing.Font("Wingdings 3", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.btnright.ForeColor = System.Drawing.Color.White;
             this.btnright.Location = new System.Drawing.Point(504, 583);
             this.btnright.Margin = new System.Windows.Forms.Padding(4);
             this.btnright.Name = "btnright";
             this.btnright.Size = new System.Drawing.Size(112, 28);
             this.btnright.TabIndex = 3;
             this.btnright.Text = "g";
-            this.btnright.UseVisualStyleBackColor = false;
+            this.btnright.UseVisualStyleBackColor = true;
             this.btnright.Click += new System.EventHandler(this.btnright_Click);
             // 
             // btndown
             // 
-            this.btndown.BackColor = System.Drawing.Color.Black;
             this.btndown.Font = new System.Drawing.Font("Wingdings 3", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.btndown.ForeColor = System.Drawing.Color.White;
             this.btndown.Location = new System.Drawing.Point(414, 619);
             this.btndown.Margin = new System.Windows.Forms.Padding(4);
             this.btndown.Name = "btndown";
             this.btndown.Size = new System.Drawing.Size(112, 28);
             this.btndown.TabIndex = 4;
             this.btndown.Text = "i";
-            this.btndown.UseVisualStyleBackColor = false;
+            this.btndown.UseVisualStyleBackColor = true;
             this.btndown.Click += new System.EventHandler(this.btndown_Click);
             // 
             // lbldanger
             // 
-            this.lbldanger.BackColor = System.Drawing.Color.Gainsboro;
-            this.lbldanger.Font = new System.Drawing.Font("Stencil", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbldanger.ForeColor = System.Drawing.Color.Black;
-            this.lbldanger.Location = new System.Drawing.Point(1, 619);
+            this.lbldanger.AutoSize = true;
+            this.lbldanger.Font = new System.Drawing.Font("Stencil", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldanger.Location = new System.Drawing.Point(10, 548);
             this.lbldanger.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbldanger.Name = "lbldanger";
-            this.lbldanger.Size = new System.Drawing.Size(229, 39);
+            this.lbldanger.Size = new System.Drawing.Size(160, 22);
             this.lbldanger.TabIndex = 5;
             this.lbldanger.Text = "Danger Level:";
             // 
             // lbltimer
             // 
-            this.lbltimer.BackColor = System.Drawing.Color.Gainsboro;
-            this.lbltimer.Font = new System.Drawing.Font("Showcard Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltimer.Location = new System.Drawing.Point(0, 577);
+            this.lbltimer.AutoSize = true;
+            this.lbltimer.Font = new System.Drawing.Font("Stencil", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltimer.Location = new System.Drawing.Point(13, 583);
             this.lbltimer.Name = "lbltimer";
-            this.lbltimer.Size = new System.Drawing.Size(170, 42);
+            this.lbltimer.Size = new System.Drawing.Size(72, 25);
             this.lbltimer.TabIndex = 6;
-            this.lbltimer.Text = "Timer:";
-            // 
-            // timer1
-            // 
-            this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
+            this.lbltimer.Text = "Time:";
             // 
             // Form1
             // 
@@ -4558,6 +4545,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -4969,8 +4957,8 @@
         private System.Windows.Forms.Button btnright;
         private System.Windows.Forms.Button btndown;
         private System.Windows.Forms.Label lbldanger;
-        private System.Windows.Forms.Label lbltimer;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label lbltimer;
     }
 }
 
