@@ -56,13 +56,3 @@ D:\Assinment 1\Minefield\Minefield\obj\Debug\Minefield.Properties.Resources.reso
 D:\Assinment 1\Minefield\Minefield\obj\Debug\Minefield.csproj.GenerateResource.Cache
 D:\Assinment 1\Minefield\Minefield\obj\Debug\Minefield.csprojAssemblyReference.cache
 D:\Assinment 1\Minefield\Minefield\obj\Debug\Minefield.csproj.CoreCompileInputs.cache
-C:\Minefield\PROJECT\Minefield\bin\Debug\Minefield.exe.config
-C:\Minefield\PROJECT\Minefield\bin\Debug\Minefield.exe
-C:\Minefield\PROJECT\Minefield\bin\Debug\Minefield.pdb
-C:\Minefield\PROJECT\Minefield\obj\Debug\Minefield.csprojAssemblyReference.cache
-C:\Minefield\PROJECT\Minefield\obj\Debug\Minefield.Form1.resources
-C:\Minefield\PROJECT\Minefield\obj\Debug\Minefield.Properties.Resources.resources
-C:\Minefield\PROJECT\Minefield\obj\Debug\Minefield.csproj.GenerateResource.cache
-C:\Minefield\PROJECT\Minefield\obj\Debug\Minefield.csproj.CoreCompileInputs.cache
-C:\Minefield\PROJECT\Minefield\obj\Debug\Minefield.exe
-C:\Minefield\PROJECT\Minefield\obj\Debug\Minefield.pdb
