@@ -82,7 +82,7 @@
     <None Include="Resources\file %281%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\worm-cute-cartoon-flipped.jpg" />
+    <None Include="Resources\demon.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ghost.png" />
@@ -91,7 +91,13 @@
     <None Include="Resources\gravestone.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\demon.png" />
+    <None Include="Resources\monster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pumpkin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\worm-cute-cartoon-flipped.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
