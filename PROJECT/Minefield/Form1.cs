@@ -213,6 +213,7 @@ namespace Minefield
                 btnright.BackColor = Color.Red;
                 ShowDaBomb();
                 MessageBox.Show("Mwaha you are trapped on this earth for eternity!!");
+                resetgame();
             }
             else if (atCol == 9 && atRow == 0)
             {
@@ -235,6 +236,12 @@ namespace Minefield
         {
             timer1.Stop();
         }
+
+        private void resetgame()
+        {
+            Application.Restart();
+        }
+
 
 
         /******************************************************************************
@@ -318,7 +325,7 @@ namespace Minefield
 
         private void Btnreset_Click(object sender, EventArgs e)
         {
-            Application.Restart();
+            resetgame();
         }
 
 
