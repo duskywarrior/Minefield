@@ -316,6 +316,11 @@ namespace Minefield
             }
         }
 
+        private void Btnreset_Click(object sender, EventArgs e)
+        {
+
+        }
+
 
         /******************************************************************************
         * END

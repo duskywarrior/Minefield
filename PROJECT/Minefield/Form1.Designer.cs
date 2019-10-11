@@ -439,6 +439,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lbltimer = new System.Windows.Forms.Label();
             this.label401 = new System.Windows.Forms.Label();
+            this.btnreset = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -4534,6 +4535,17 @@
             this.label401.TabIndex = 7;
             this.label401.Text = "Time:";
             // 
+            // btnreset
+            // 
+            this.btnreset.Font = new System.Drawing.Font("Engravers MT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnreset.Location = new System.Drawing.Point(13, 619);
+            this.btnreset.Name = "btnreset";
+            this.btnreset.Size = new System.Drawing.Size(127, 36);
+            this.btnreset.TabIndex = 8;
+            this.btnreset.Text = "Reset";
+            this.btnreset.UseVisualStyleBackColor = true;
+            this.btnreset.Click += new System.EventHandler(this.Btnreset_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
@@ -4542,6 +4554,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(644, 667);
+            this.Controls.Add(this.btnreset);
             this.Controls.Add(this.label401);
             this.Controls.Add(this.lbltimer);
             this.Controls.Add(this.lbldanger);
@@ -4976,6 +4989,7 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label lbltimer;
         private System.Windows.Forms.Label label401;
+        private System.Windows.Forms.Button btnreset;
     }
 }
 
