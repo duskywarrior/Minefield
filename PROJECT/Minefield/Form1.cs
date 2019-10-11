@@ -318,7 +318,7 @@ namespace Minefield
 
         private void Btnreset_Click(object sender, EventArgs e)
         {
-
+            Application.Restart();
         }
 
 
